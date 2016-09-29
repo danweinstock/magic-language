@@ -144,7 +144,7 @@ get_header();
 			</form>
 		</li>
 	</ol>
-	<form>
+	<form><!-- on the click of this button, I would be taken to a  different registration page -->
 		<button type="button" id="checkout-button"> Check Out </button>
 	</form>
 <?php
