@@ -18,10 +18,24 @@ get_header(); ?>
 				
 			
 <!-- get_template_part, get_header and get_footer similiar to include statement -->
+				<?php get_template_part('template-parts/content','home-logo-section');?>
 				<?php get_template_part( 'template-parts/content','home-story' ); ?>
 				<?php get_template_part( 'template-parts/content','home-programs' ); ?>
-	
-				<?php get_template_part( 'template-parts/content','home-blogs' ); ?>
+				<h1>Recent Blogs</h1>
+
+
+		<?php query_posts('showposts=3'); if (have_posts()) : while (have_posts()) : the_post(); ?>
+
+	<?php get_template_part( 'template-parts/content','home-blogs' ); ?>
+
+<?php endwhile;?>
+
+
+<?php else : ?>
+
+	<h1>Not Found</h1>
+
+<?php endif; wp_reset_query(); ?>
 				
 		</main><!-- #main -->
 	</div><!-- #primary -->
