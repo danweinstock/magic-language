@@ -140,9 +140,14 @@ get_header();
 			<form>
 				<input type="checkbox" name="terms-agree">I have read and
 				agree to the Magic Languages Terms and Conditions
+				<!--TODO include link to access printable version pdf -->
 			</form>
 		</li>
-		<li>
-		</li>
 	</ol>
+	<form>
+		<button type="button" id="checkout-button"> Check Out </button>
+	</form>
+<?php
+get_footer();
+?>
 
