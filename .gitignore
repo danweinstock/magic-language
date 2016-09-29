@@ -8,6 +8,7 @@
 ehthumbs.db
 *[Tt]humbs.db
 *.Trashes
+.idea
 
 # Ignore packages #
 # =============== #
