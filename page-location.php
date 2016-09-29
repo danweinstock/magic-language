@@ -15,13 +15,10 @@ get_header(); ?>
 				<h1><?php echo the_title(); ?></h1>
 				<?php echo the_content(); ?>
                     <div class="">
-				        
-			<?php endwhile; wp_reset_query();?>
-                <?php
-    				get_template_part( 'template-parts/content', '' );
 
-    				// If comments are open or we have at least one comment, load up the comment template.
-    			?>
+					<h1>Choose a Neighbourhood</h1>
+			<?php endwhile; wp_reset_query();?>
+                
 			<?php while ( have_posts() ) : the_post(); ?>
 
             </div>
