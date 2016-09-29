@@ -73,9 +73,7 @@ get_the_title();
 		<li>
 			Pick your class location/time/day<br>
 		</li>
-	</ol>
-	<div>
-		<ol>
+
 			<li>
 				<!-- the parent name, phone number, email address are all the same whether or not the student is school at
 				home or in a public place -->
@@ -96,8 +94,7 @@ get_the_title();
 					<input type="text" name="parent-guardian-email" placeholder="Enter Email Address">
 				</form>
 			</li>
-		</ol>
-	</div>
+
 
 		<li>
 			<!--TODO  if another student is added, a different set of options will show up depending on whether yes or no is clicked -->
