@@ -137,9 +137,12 @@ get_header();
 				committed to providing a safe environment for our students. Therefore, we request that you do
 				not bring peanuts, nuts, or foods containing nut ingredients onto the premises.
 			</div>
+			<form>
+				<input type="checkbox" name="terms-agree">I have read and
+				agree to the Magic Languages Terms and Conditions
+			</form>
 		</li>
 		<li>
-
 		</li>
 	</ol>
 
