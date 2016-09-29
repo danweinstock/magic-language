@@ -48,6 +48,7 @@ get_header();
 			</form>
 		</li>
 
+
 		<li>
 			<form>
 				What time of day would you like your classes to take place?(Select Preferences)<br>
@@ -69,26 +70,32 @@ get_header();
 		<li>
 			Pick your class location/time/day<br>
 		</li>
-		<li>
-			<!-- the parent name, phone number, email address are all the same whether or not the student is school at
-			home or in a public place -->
-			<form>
-				Parent/Guardian Name<br>
-				<input type="text" name="parent-guardian-name" placeholder="Parent/Guardian Name">
-			</form>
-		</li>
-		<li>
-			<form>
-				Parent/Guardian Phone Number<br>
-				<input type="text" name="parent-guardian-phone" placeholder="###-###-####">
-			</form>
-		</li>
-		<li>
-			<form>
-				Parent/Guardian Email Address<br>
-				<input type="text" name="parent-guardian-email" placeholder="Enter Email Address">
-			</form>
-		</li>
+	</ol>
+	<div>
+		<ol>
+			<li>
+				<!-- the parent name, phone number, email address are all the same whether or not the student is school at
+				home or in a public place -->
+				<form>
+					Parent/Guardian Name<br>
+					<input type="text" name="parent-guardian-name" placeholder="Parent/Guardian Name">
+				</form>
+			</li>
+			<li>
+				<form>
+					Parent/Guardian Phone Number<br>
+					<input type="text" name="parent-guardian-phone" placeholder="###-###-####">
+				</form>
+			</li>
+			<li>
+				<form>
+					Parent/Guardian Email Address<br>
+					<input type="text" name="parent-guardian-email" placeholder="Enter Email Address">
+				</form>
+			</li>
+		</ol>
+	</div>
+
 		<li>
 			<!--TODO  if another student is added, a different set of options will show up depending on whether yes or no is clicked -->
 			Would you like to add another student?<br>
