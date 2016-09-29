@@ -75,6 +75,8 @@ add_action( 'after_setup_theme', 'magic_language_setup' );
  *
  * @global int $content_width
  */
+
+
 function magic_language_content_width() {
 	$GLOBALS['content_width'] = apply_filters( 'magic_language_content_width', 640 );
 }
@@ -102,9 +104,13 @@ add_action( 'widgets_init', 'magic_language_widgets_init' );
  * Enqueue scripts and styles.
  */
 function magic_language_scripts() {
+	//wp_enqueue_script ('jquery');
+
 	wp_enqueue_style( 'magic_language-style', get_stylesheet_uri() );
 
 	wp_enqueue_script( 'magic_language-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
+
+	wp_enqueue_script( 'magic_language-plugin', get_template_directory_uri() . '/js/plugin.js', array('jquery'), '20151215', true );
 
 	wp_enqueue_script( 'magic_language-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
 

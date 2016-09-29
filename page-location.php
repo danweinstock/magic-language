@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Our Story
+ * Template Name: Location
  *
  * @package WordPress
  * @subpackage Twenty_Fourteen
@@ -14,16 +14,13 @@ get_header(); ?>
 			<?php while ( have_posts() ) : the_post(); ?>
 				<h1><?php echo the_title(); ?></h1>
 				<?php echo the_content(); ?>
-			<div class="">
-
-				<h1>Meet our Teachers</h1>
+                    <div class="">
+				        
 			<?php endwhile; wp_reset_query();?>
                 <?php
-
-    				get_template_part( 'template-parts/content', 'about-teachers' );
+    				get_template_part( 'template-parts/content', '' );
 
     				// If comments are open or we have at least one comment, load up the comment template.
-
     			?>
 			<?php while ( have_posts() ) : the_post(); ?>
 

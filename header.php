@@ -16,7 +16,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="profile" href="http://gmpg.org/xfn/11">
 
+
+
 <?php wp_head(); ?>
+<?php
+echo '<script src="'.get_bloginfo("stylesheet_directory").'/build/js/owl.carousel.min.js">'."</script>";
+?>
 </head>
 
 <body <?php body_class(); ?>>
@@ -25,7 +30,7 @@
 
 	<header id="masthead" class="site-header" role="banner">
 		<div class="site-branding">
-		<?php 
+		<?php
 			// echo 'img src="'.( get_stylesheet_directory() . '/images/top_nav_logo.png');
 		 echo '<img src="'.get_bloginfo("stylesheet_directory").'/images/top_nav_logo.png">'."<br>";
 			// echo '<img src = "'.get_bloginfo("stylesheet_directory").'/images/top_nav_logo.png';
