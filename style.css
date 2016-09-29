@@ -496,7 +496,6 @@ body {
 
 .align-center {
   -ms-flex-align: center;
-      -ms-grid-row-align: center;
       align-items: center; }
 
 .flex-grow-double {
