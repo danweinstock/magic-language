@@ -3,7 +3,9 @@
 //this would hold the nav
 get_header();
 //registration banner picture
+get_the_title();
 ?>
+
 <h1>Enter your information</h1>
 	<ol>
 		<li>
@@ -61,6 +63,7 @@ get_header();
 		<!--these options show up if they want a class to happen publicly -->
 		<li>
 			Which Session would you like to Sign up For? <br>
+			<!-- TODO  change the options so that the years are constantly updated-->
 			<button type="button">Fall 2016 (Sept. - Nov.)</button><br>
 			<button type="button">Winter 2017 (Jan. - Mar.)</button><br>
 			<button type="button">Spring 2017 (Apr. - Jun.)</button><br>
@@ -70,9 +73,7 @@ get_header();
 		<li>
 			Pick your class location/time/day<br>
 		</li>
-	</ol>
-	<div>
-		<ol>
+
 			<li>
 				<!-- the parent name, phone number, email address are all the same whether or not the student is school at
 				home or in a public place -->
@@ -93,8 +94,7 @@ get_header();
 					<input type="text" name="parent-guardian-email" placeholder="Enter Email Address">
 				</form>
 			</li>
-		</ol>
-	</div>
+
 
 		<li>
 			<!--TODO  if another student is added, a different set of options will show up depending on whether yes or no is clicked -->
