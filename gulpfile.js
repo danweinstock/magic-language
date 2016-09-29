@@ -59,11 +59,11 @@ gulp.task('browser-sync', function() {
       './build/css/*.css',
       './build/js/*.js',
       './*.php',
-      './**/*.php',
+      './**/*.php'
    ];
 
     browserSync.init(files, {
-        proxy: 'inhabitent.dev',
+        proxy: 'inhabitent.dev'
     });
 
     gulp.watch(files).on('change', browserSync.reload);
