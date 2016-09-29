@@ -51,3 +51,13 @@
 <div class="programs-add-school">
 	<p>If you are a school, kindergarten, daycare or any other center for child education, Magic Languages can help your students learn French, Spanish and Mandarin. Our teachers are available for before-after school programs and for lessons integrated in your regular curriculum</p>
 </div>
+<div class="programs-faq">
+	<div class="faq-question">This is FAQ 1</div>
+	<div class="faq-answer">This is the answer to the FAQ above. Nap all day lick plastic bags for always hungry, peer out window, chatter at birds, lure them to mouth but sniff other cat's butt and hang jaw half open thereafter for destroy the blinds and favor packaging over toy. Meow loudly just to annoy owners. Destroy couch as revenge lick sellotape spread kitty litter all over house unwrap toilet paper if it smells like fish eat as much as you wish. </div>
+	<div class="faq-question">This is FAQ 2</div>
+</div>
+<script>
+	jQuery( document ).ready(function() {
+    console.log( "ready!" );
+	});
+</script>
