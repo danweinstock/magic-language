@@ -18,7 +18,16 @@ get_header(); ?>
 
 					<h1>Choose a Neighbourhood</h1>
 			<?php endwhile; wp_reset_query();?>
-                
+
+			<?php
+
+				get_template_part( 'template-parts/content', 'location-neighbourhood' );
+
+				// If comments are open or we have at least one comment, load up the comment template.
+
+			?>
+
+
 			<?php while ( have_posts() ) : the_post(); ?>
 
             </div>
