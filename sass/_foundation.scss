@@ -13,7 +13,9 @@ body {
 	width: 1920px;
 }
 
-
+.hidden {
+    display: none;
+}
 
 /*Position*/
 .fixed {
@@ -215,4 +217,3 @@ body {
 .float-left{
 	float:left;
 }
-

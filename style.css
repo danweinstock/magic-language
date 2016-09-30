@@ -355,6 +355,9 @@ body {
   color: black;
   width: 1920px; }
 
+.hidden {
+  display: none; }
+
 /*Position*/
 .fixed {
   position: fixed; }
@@ -496,6 +499,7 @@ body {
 
 .align-center {
   -ms-flex-align: center;
+      -ms-grid-row-align: center;
       align-items: center; }
 
 .flex-grow-double {
