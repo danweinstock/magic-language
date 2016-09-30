@@ -51,6 +51,7 @@
 <div class="programs-add-school">
 	<p>If you are a school, kindergarten, daycare or any other center for child education, Magic Languages can help your students learn French, Spanish and Mandarin. Our teachers are available for before-after school programs and for lessons integrated in your regular curriculum</p>
 </div>
+
 <div class="programs-accordion">
 
 <ul class="accordion" data-accordion>
@@ -60,6 +61,7 @@
       This is the answer to the FAQ 1. Human is washing you why halp oh the horror flee scratch hiss bite scratch at the door then walk away drink water out of the faucet, yet jump launch to pounce upon little yarn mouse, bare fangs at toy run hide in litter box until treats are fed chirp at birds. 
     </div>
 	</li>
+
 	<li class="accordion-item">
 		<a href="#" class="accordion-title">This is FAQ 2</a>
 		<div class="accordion-content" data-tab-content>
@@ -78,6 +80,10 @@
 			This is the answer to FAQ 4. Find empty spot in cupboard and sleep all day spot something, big eyes, big eyes, crouch, shake butt, prepare to pounce. White cat sleeps on a black shirt sit on the laptop. Poop on grasses wake up human for food at 4am. 
 		</div>
 	</li>
-
 </ul>
+</div>
+<div class="programs-page-register">
+	Start your child on the journey to a new language today.
+
+	<a href="#">Register</a>
 </div>

@@ -1806,7 +1806,7 @@ select {
 
 .accordion-title {
   display: block;
-  padding: 1.25rem 1rem;
+  padding: 1.25rem 2rem;
   line-height: 1;
   font-size: 0.75rem;
   color: #2199e8;
@@ -1819,13 +1819,13 @@ select {
   .accordion-title:hover, .accordion-title:focus {
     background-color: #e6e6e6; }
   .accordion-title::before {
-    content: '+';
+    content: '>';
     position: absolute;
-    right: 1rem;
+    left: 1rem;
     top: 50%;
     margin-top: -0.5rem; }
   .is-active > .accordion-title::before {
-    content: '–'; }
+    content: 'v'; }
 
 .accordion-content {
   padding: 1rem;
