@@ -73,6 +73,8 @@
   
 </ul>
 </div>
+
+
 <script>
 	jQuery( document ).ready(function() {
     jQuery("#accordion > li > span").click(function() {
@@ -95,7 +97,8 @@
 	color: #fff;
 	margin: 4px 0;
 	padding: 6px;
-	background: url(images/expand_arrow.png) no-repeat 99.5% 6px #525252;
+	background: #525252;
+	/*background: url(images/expand_arrow.png) no-repeat 99.5% 6px #525252;*/
 	background-size: 20px;
 	font-weight: normal;
 	cursor: pointer; font-size:16px
@@ -116,7 +119,8 @@
 #accordion li > span:hover {
 }
 #accordion li > span.active {
-	background: url(images/collapse-arrow.png) no-repeat 99.5% 6px #000;
+/*	background: url(images/collapse-arrow.png) no-repeat 99.5% 6px #000;*/
+background: #000;
 	background-size: 20px
 }
 </style>
