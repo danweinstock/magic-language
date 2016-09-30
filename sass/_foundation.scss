@@ -12,7 +12,9 @@ body {
 	color: black;
 }
 
-
+.hidden {
+    display: none;
+}
 
 /*Position*/
 .fixed {
@@ -214,4 +216,3 @@ body {
 .float-left{
 	float:left;
 }
-

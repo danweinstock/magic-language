@@ -354,6 +354,9 @@ body {
   padding: 0;
   color: black; }
 
+.hidden {
+  display: none; }
+
 /*Position*/
 .fixed {
   position: fixed; }
