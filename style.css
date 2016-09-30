@@ -352,8 +352,7 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
 body {
   margin: 0;
   padding: 0;
-  color: black;
-  width: 1920px; }
+  color: black; }
 
 /*Position*/
 .fixed {
