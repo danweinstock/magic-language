@@ -20,15 +20,18 @@ get_header(); ?>
 <!-- get_template_part, get_header and get_footer similiar to include statement -->
 				<?php get_template_part('template-parts/content','home-logo-section');?>
 				<?php get_template_part( 'template-parts/content','home-story' ); ?>
-				<?php get_template_part( 'template-parts/content','home-programs' ); ?>
-				<h1>Recent Blogs</h1>
+				<h1 class="blue-text">Recent Blogs</h1>
 
 
+	<div class="row">
 		<?php query_posts('showposts=3'); if (have_posts()) : while (have_posts()) : the_post(); ?>
-
+		<div class="large-4 columns">
 	<?php get_template_part( 'template-parts/content','home-blogs' ); ?>
+			
+		</div>
 
 <?php endwhile;?>
+	</div>
 
 
 <?php else : ?>

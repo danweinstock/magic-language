@@ -423,7 +423,7 @@ body {
   box-sizing: border-box; }
 
 .col-1-3 {
-  width: 33.33%;
+  width: calc(100%/3);
   box-sizing: border-box; }
 
 .col-1-4 {
@@ -484,9 +484,13 @@ body {
   border: 3px solid black; }
 
 /*flex*/
-.flex-container {
+.flex {
   display: -ms-flexbox;
   display: flex; }
+
+.flex-end {
+  -ms-flex-pack: end;
+      justify-content: flex-end; }
 
 .justify-center {
   -ms-flex-pack: center;
@@ -521,6 +525,61 @@ body {
 .float-left {
   float: left; }
 
+/*Custom Styling*/
+/*common classes to use*/
+.blue-text {
+  color: #2e4e5f; }
+
+.orange-button {
+  color: #fff;
+  background: #c95139;
+  border: none; }
+
+.blue-button {
+  color: #fff;
+  background: #2e4e5f;
+  border: none; }
+
+/*home page formatting*/
+.home .hero {
+  background-image: url("./images/home_hero_image.jpg");
+  width: 100%;
+  height: 500px;
+  position: relative;
+  background-size: 100%; }
+
+.hero-statement {
+  top: 20%;
+  left: 50%; }
+
+.hero-cta {
+  height: 3rem;
+  width: 12rem;
+  top: 50%;
+  left: 67%;
+  border-radius: 5%; }
+
+.main-navigation {
+  margin-right: 4%; }
+  .main-navigation .menu .menu-item a {
+    color: #2e4e5f; }
+  .main-navigation .menu .menu-item-55 {
+    background: #c95139;
+    border-radius: 5%; }
+    .main-navigation .menu .menu-item-55 a {
+      color: #fff; }
+
+.home-icons {
+  padding: 4% 8%; }
+  .home-icons i {
+    font-size: 3.9rem; }
+
+.home-button {
+  margin-top: 1rem;
+  height: 3.8rem;
+  width: 11.5rem; }
+
+/*end of home page formatting*/
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
@@ -531,7 +590,7 @@ select,
 textarea {
   color: #404040;
   font-family: "Raleway", sans-serif;
-  font-size: 16px;
+  font-size: 20px;
   font-size: 1rem;
   line-height: 1.5; }
 
@@ -553,7 +612,7 @@ address {
 pre {
   background: #eee;
   font-family: "Courier 10 Pitch", Courier, monospace;
-  font-size: 15px;
+  font-size: 18.75px;
   font-size: 0.9375rem;
   line-height: 1.6;
   margin-bottom: 1.6em;
@@ -563,7 +622,7 @@ pre {
 
 code, kbd, tt, var {
   font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
-  font-size: 15px;
+  font-size: 18.75px;
   font-size: 0.9375rem; }
 
 abbr, acronym {
@@ -618,18 +677,6 @@ table {
   margin: 0 0 1.5em;
   width: 100%; }
 
-.site-footer {
-  background-color: #2e4e5f; }
-
-.footer-address {
-  color: #fff; }
-
-.left-middle:after {
-  clear: both; }
-
-.social-buttons i {
-  color: #fff; }
-
 /*--------------------------------------------------------------
 # Forms
 --------------------------------------------------------------*/
@@ -642,7 +689,7 @@ input[type="submit"] {
   border-radius: 3px;
   background: #A1A1A1;
   color: rgba(0, 0, 0, 0.8);
-  font-size: 12px;
+  font-size: 15px;
   font-size: 0.75rem;
   line-height: 1;
   padding: .6em 1em .4em;
@@ -726,9 +773,6 @@ a {
 ## Menus
 --------------------------------------------------------------*/
 .main-navigation {
-  clear: both;
-  display: block;
-  float: left;
   width: 100%; }
   .main-navigation ul {
     display: none;
@@ -807,7 +851,7 @@ a {
     clip: auto !important;
     color: #21759b;
     display: block;
-    font-size: 14px;
+    font-size: 17.5px;
     font-size: 0.875rem;
     font-weight: bold;
     height: auto;

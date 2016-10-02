@@ -53,8 +53,11 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 /*--------------------------------------------------------------
 # Foundation
 --------------------------------------------------------------*/
-@import 'global';
+@import "global";
 
+/*Custom Styling*/
+
+@import "custom"; 
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
@@ -124,3 +127,4 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 # Footer
 -------------------*/
 @import "elements/footer";
+

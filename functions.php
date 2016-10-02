@@ -106,10 +106,10 @@ add_action( 'widgets_init', 'magic_language_widgets_init' );
 function magic_language_scripts() {
 	//wp_enqueue_script ('jquery');
 
-	wp_enqueue_style( 'magic_language-style', get_stylesheet_uri() );
 
 	wp_enqueue_style ('foundation',get_bloginfo("stylesheet_directory").'/foundation-6.2.3/css/foundation.css');
 
+	wp_enqueue_style( 'magic_language-style', get_stylesheet_uri() );
 	wp_enqueue_script( 'magic_language-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 
 	wp_enqueue_script( 'magic_language-plugin', get_template_directory_uri() . '/js/plugin.js', array('jquery'), '20151215', true );
