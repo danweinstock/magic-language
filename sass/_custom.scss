@@ -84,7 +84,7 @@
 // 	}
 // }
 .site-footer{
-	background-color: #2e4e5f;
+	background-color: $color__blue-button;
 }
 .footer-address{
 	color: $color__background-body;
@@ -99,7 +99,6 @@
 		justify-content: center;
 		align-items: center;
 		border-radius: 50%;
-
 		margin: 4%;
 	}
 }
@@ -138,3 +137,53 @@
 input[type="text"]::-webkit-input-placeholder{
 		color: #000;
 	} 
+.footer-newsletter{
+	label{
+		color: $color__background-body;
+		font-size: 1rem;
+	}
+}
+.copyright{
+	font-size: 0.6rem;
+	color: $color__background-body;
+	top: 16rem;
+}
+
+.page-id-13{
+	.hero{
+		background: url("./images/spash_banner.png");
+		width: 100%;
+		height: 21rem;
+		position:relative;
+		background-size: 100%;
+		background-repeat: no-repeat;
+	}
+}
+.register-title{
+	top: 30%;
+	left: 38%;
+	font-size: 3rem;
+}
+.register-body{
+	margin-left: 2%;
+		label{
+			font-size: 1rem;
+		}
+		input[type=text]{
+			width: 50%;
+		}
+		.age-button, .location-type-button{
+			margin: 0.5%;
+			height: 2.8rem;
+			width: 12.7rem;
+		}
+}
+.overlay-color{
+		position:absolute;
+		height: 100%;
+		width: 63%;
+		background-color: rgba(0, 0, 0, 0.5);
+		z-index: 1;
+		top: 0;
+	}
+

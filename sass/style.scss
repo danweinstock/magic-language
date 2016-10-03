@@ -51,9 +51,11 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 @import "normalize";
 
 /*--------------------------------------------------------------
-# Foundation
+# Global
 --------------------------------------------------------------*/
 @import "global";
+
+
 
 /*Custom Styling*/
 
@@ -128,3 +130,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 # Owl Theme
 --------------------------------------------------------------*/
 @import "plugin/owl-theme";
+
+@import "our-story";
+
+@import "register";
