@@ -1220,31 +1220,3 @@ object {
 .owl-item.loading {
   min-height: 150px;
   background: url(AjaxLoader.gif) no-repeat center center; }
-<<<<<<< HEAD
-=======
-
-/*--------------------------------------------------------------
-# Our Story
---------------------------------------------------------------*/
-.story-background {
-  background-image: url("./images/spash_banner.png");
-  background-color: red;
-  width: auto;
-  height: 600px;
-  background-size: cover; }
-
-/*------------------
-# Footer
--------------------*/
-.site-footer {
-  background-color: #2e4e5f; }
-
-.footer-address {
-  color: #fff; }
-
-.left-middle:after {
-  clear: both; }
-
-.social-buttons i {
-  color: #fff; }
->>>>>>> brandon
