@@ -47,7 +47,7 @@
 				</div>
 		
 			<div class="large-3 columns">
-				<div class="social-buttons flex">
+				<div class="social-buttons flex flex-end">
 					<i class="fa fa-facebook" aria-hidden="true"></i>
 					<i class="fa fa-twitter" aria-hidden="true"></i>
 					<i class="fa fa-instagram" aria-hidden="true"></i>
