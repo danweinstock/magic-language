@@ -62,5 +62,74 @@
 	height: 3.8rem;
 	width: 11.5rem
 }
+.home-read-more{
+	text-align: right;
+}
+.recent-blogs{
+	.post{
+		.home-read-more{
+			a{
+				color: $color__blue-button;
+			}
+		}
+	}
+}
 
 /*end of home page formatting*/ 
+/*Footer formatting*/
+// .social-buttons{
+// 	i{
+// 		color: $color__background-body;
+// 	}
+// }
+.site-footer{
+	background-color: #2e4e5f;
+}
+.footer-address{
+	color: $color__background-body;
+} 
+.social-buttons{
+	i{
+		color: $color__background-body;
+		border: 1px solid $color__background-body;
+		height: 2em;
+		width: 2em;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border-radius: 50%;
+	
+	}
+}
+.footer-left{
+	padding-left: 4%;
+}
+.left-middle{
+	ul{
+		li{
+			padding: 4% 4% 4% 0;
+			list-style-type: none;
+			a{
+				color: $color__background-body;
+			}
+			
+		}
+	}
+}
+
+.right-middle{
+	ul{
+		li{
+			padding: 4% 4% 4% 0;
+			list-style-type: none;
+			a{
+				color: $color__background-body;
+			}
+		}
+	}
+}
+.nav-register{
+	border: 1px solid $color__background-body;
+	padding: 4%;
+	margin-right: 4%;
+}

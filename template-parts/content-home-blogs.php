@@ -15,6 +15,8 @@
 			the_excerpt();
 		?>
 	</div><!-- .entry-content -->
-	<button><a href="<?php the_permalink(); ?>">READ MORE </a><i class="fa fa-long-arrow-right" aria-hidden="true"></i>	</button>
+	<div class="home-read-more blue-text">
+		<a href="<?php the_permalink(); ?>">READ MORE </a><i class="fa fa-caret-right" aria-hidden="true"></i>	
+	</div>
 	
 </article><!-- #post-## -->

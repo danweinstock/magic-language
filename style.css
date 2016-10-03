@@ -579,7 +579,53 @@ body {
   height: 3.8rem;
   width: 11.5rem; }
 
+.home-read-more {
+  text-align: right; }
+
+.recent-blogs .post .home-read-more a {
+  color: #2e4e5f; }
+
 /*end of home page formatting*/
+/*Footer formatting*/
+.site-footer {
+  background-color: #2e4e5f; }
+
+.footer-address {
+  color: #fff; }
+
+.social-buttons i {
+  color: #fff;
+  border: 1px solid #fff;
+  height: 2em;
+  width: 2em;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  border-radius: 50%; }
+
+.footer-left {
+  padding-left: 4%; }
+
+.left-middle ul li {
+  padding: 4% 4% 4% 0;
+  list-style-type: none; }
+  .left-middle ul li a {
+    color: #fff; }
+
+.right-middle ul li {
+  padding: 4% 4% 4% 0;
+  list-style-type: none; }
+  .right-middle ul li a {
+    color: #fff; }
+
+.nav-register {
+  border: 1px solid #fff;
+  padding: 4%;
+  margin-right: 4%; }
+
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
@@ -759,7 +805,7 @@ textarea {
 ## Links
 --------------------------------------------------------------*/
 a {
-  color: royalblue; }
+  color: #2e4e5f; }
   a:visited {
     color: purple; }
   a:hover, a:focus, a:active {
@@ -1174,18 +1220,3 @@ object {
 .owl-item.loading {
   min-height: 150px;
   background: url(AjaxLoader.gif) no-repeat center center; }
-
-/*------------------
-# Footer
--------------------*/
-.site-footer {
-  background-color: #2e4e5f; }
-
-.footer-address {
-  color: #fff; }
-
-.left-middle:after {
-  clear: both; }
-
-.social-buttons i {
-  color: #fff; }
