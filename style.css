@@ -1131,6 +1131,16 @@ object {
   min-height: 150px;
   background: url(AjaxLoader.gif) no-repeat center center; }
 
+/*--------------------------------------------------------------
+# Our Story
+--------------------------------------------------------------*/
+.story-background {
+  background-image: url("./images/spash_banner.png");
+  background-color: red;
+  width: auto;
+  height: 600px;
+  background-size: cover; }
+
 /*------------------
 # Footer
 -------------------*/

@@ -30,10 +30,13 @@ get_header(); ?>
 			?>
 
             </div>
-            
 
 
 		</main><!-- #main -->
+
+		<?php while ( have_posts() ) : the_post(); ?>
+			<?php echo CFS()->get('sub_footer'); ?>
+		<?php endwhile; wp_reset_query();?>
 	</div><!-- #primary -->
 
 <?php
