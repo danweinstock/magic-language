@@ -12,10 +12,12 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 			<?php while ( have_posts() ) : the_post(); ?>
-				<div class"story-background">
-					<h2><?php echo the_title(); ?></h2>
+				<div class="story-background">
+					<div class="title-styling"><?php echo the_title(); ?></div>
 				</div>
-				<?php echo the_content(); ?>
+				<div class="intro-text">
+					<?php echo the_content(); ?>
+				</div>
 			<div class="">
 
 				<h1>Meet our Teachers</h1>

@@ -528,23 +528,23 @@ body {
 /*Custom Styling*/
 /*common classes to use*/
 .blue-text {
-  color: #2e4e5f; }
+  color: #6992B8; }
 
 .orange-button {
   color: #fff;
-  background: #c95139;
+  background: #E98E73;
   border: none; }
 
 .blue-button {
   color: #fff;
-  background: #2e4e5f;
+  background: #6992B8;
   border: none; }
 
 /*home page formatting*/
 .home .hero {
   background-image: url("./images/home_hero_image.jpg");
   width: 100%;
-  height: 500px;
+  height: 501px;
   position: relative;
   background-size: 100%;
   background-repeat: no-repeat; }
@@ -563,9 +563,9 @@ body {
 .main-navigation {
   margin-right: 4%; }
   .main-navigation .menu .menu-item a {
-    color: #2e4e5f; }
+    color: #6992B8; }
   .main-navigation .menu .menu-item-55 {
-    background: #c95139;
+    background: #E98E73;
     border-radius: 5%; }
     .main-navigation .menu .menu-item-55 a {
       color: #fff; }
@@ -584,7 +584,7 @@ body {
   text-align: right; }
 
 .recent-blogs .post .home-read-more a {
-  color: #2e4e5f; }
+  color: #6992B8; }
 
 /*end of home page formatting*/
 /*Footer formatting*/
@@ -630,6 +630,25 @@ body {
 
 input[type="text"]::-webkit-input-placeholder {
   color: #000; }
+
+/*--------------------------------------------------------------
+# Our Story Page Styling
+--------------------------------------------------------------*/
+.page-id-7 .story-background {
+  background-image: url("./images/spash_banner.png");
+  width: auto;
+  height: 400px;
+  background-size: cover; }
+
+.title-styling {
+  text-align: center;
+  padding-top: 11%;
+  font-size: 4rem;
+  font-weight: bold;
+  color: #6991B7; }
+
+.intro-text {
+  padding: 1% 1% 1% 1%; }
 
 /*--------------------------------------------------------------
 # Typography
@@ -810,7 +829,7 @@ textarea {
 ## Links
 --------------------------------------------------------------*/
 a {
-  color: #2e4e5f; }
+  color: #6992B8; }
   a:visited {
     color: purple; }
   a:hover, a:focus, a:active {
