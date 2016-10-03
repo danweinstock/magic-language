@@ -57,7 +57,13 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 
 /*Custom Styling*/
 
-@import "custom"; 
+@import "custom";
+
+/*--------------------------------------------------------------
+# Our Story Page Styling
+--------------------------------------------------------------*/
+@import "our-story";
+
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
@@ -122,5 +128,3 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 # Owl Theme
 --------------------------------------------------------------*/
 @import "plugin/owl-theme";
-
-

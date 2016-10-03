@@ -1,7 +1,7 @@
 /*common classes to use*/
 .blue-text{
 	color: $color__blue-button;
-} 
+}
 .orange-button{
 	color: $color__background-body;
 	background: $color__orange-button;
@@ -12,12 +12,12 @@
 	background: $color__blue-button;
 	border:none;
 }
-/*home page formatting*/ 
+/*home page formatting*/
 .home{
 	.hero{
 		background-image: url("./images/home_hero_image.jpg");
 		width: 100%;
-		height: 500px;
+		height: 501px;
 		position:relative;
 		background-size: 100%;
 	}
@@ -75,7 +75,7 @@
 	}
 }
 
-/*end of home page formatting*/ 
+/*end of home page formatting*/
 /*Footer formatting*/
 // .social-buttons{
 // 	i{
@@ -87,7 +87,7 @@
 }
 .footer-address{
 	color: $color__background-body;
-} 
+}
 .social-buttons{
 	i{
 		color: $color__background-body;
@@ -98,7 +98,7 @@
 		justify-content: center;
 		align-items: center;
 		border-radius: 50%;
-	
+
 	}
 }
 .footer-left{
@@ -112,7 +112,7 @@
 			a{
 				color: $color__background-body;
 			}
-			
+
 		}
 	}
 }
