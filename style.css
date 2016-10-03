@@ -349,9 +349,6 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
 * {
   box-sizing: border-box; }
 
-html {
-  font-size: 20pt; }
-
 body {
   margin: 0;
   padding: 0;
@@ -631,6 +628,9 @@ body {
   padding: 4%;
   margin-right: 4%; }
 
+input[type="text"]::-webkit-input-placeholder {
+  color: #000; }
+
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
@@ -740,8 +740,8 @@ input[type="submit"] {
   border-radius: 3px;
   background: #A1A1A1;
   color: rgba(0, 0, 0, 0.8);
-  font-size: 15px;
-  font-size: 0.75rem;
+  font-size: 20px;
+  font-size: 1rem;
   line-height: 1;
   padding: .6em 1em .4em;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8); }
