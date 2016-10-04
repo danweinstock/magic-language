@@ -85,6 +85,7 @@
 	color: $color__background-body;
 }
 .social-buttons{
+	margin-top: 2rem;
 	i{
 		color: $color__background-body;
 		border: 1px solid $color__background-body;
@@ -101,6 +102,7 @@
 	padding-left: 4%;
 }
 .left-middle{
+	margin-top: 2rem;
 	ul{
 		li{
 			padding: 4% 4% 4% 0;
@@ -114,6 +116,7 @@
 }
 
 .right-middle{
+	margin-top: 2rem;
 	ul{
 		li{
 			padding: 4% 4% 4% 0;
@@ -208,13 +211,13 @@ input[type="text"]::-webkit-input-placeholder{
 		text-decoration: underline;
 	}
 }
-.additional-student{
+.additional-student, .additional-group-student{
 	display:none;
 }
 .overlay-color{
 		position:absolute;
 		height: 100%;
-		width: 63%;
+		width: 60%;
 		background-color: rgba(0, 0, 0, 0.5);
 		z-index: 1;
 		top: 0;

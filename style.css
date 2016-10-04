@@ -594,34 +594,40 @@ body {
 .footer-address {
   color: #fff; }
 
-.social-buttons i {
-  color: #fff;
-  border: 1px solid #fff;
-  height: 2em;
-  width: 2em;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: center;
-      justify-content: center;
-  -ms-flex-align: center;
-      align-items: center;
-  border-radius: 50%;
-  margin: 4%; }
+.social-buttons {
+  margin-top: 2rem; }
+  .social-buttons i {
+    color: #fff;
+    border: 1px solid #fff;
+    height: 2em;
+    width: 2em;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center;
+    -ms-flex-align: center;
+        align-items: center;
+    border-radius: 50%;
+    margin: 4%; }
 
 .footer-left {
   padding-left: 4%; }
 
-.left-middle ul li {
-  padding: 4% 4% 4% 0;
-  list-style-type: none; }
-  .left-middle ul li a {
-    color: #fff; }
+.left-middle {
+  margin-top: 2rem; }
+  .left-middle ul li {
+    padding: 4% 4% 4% 0;
+    list-style-type: none; }
+    .left-middle ul li a {
+      color: #fff; }
 
-.right-middle ul li {
-  padding: 4% 4% 4% 0;
-  list-style-type: none; }
-  .right-middle ul li a {
-    color: #fff; }
+.right-middle {
+  margin-top: 2rem; }
+  .right-middle ul li {
+    padding: 4% 4% 4% 0;
+    list-style-type: none; }
+    .right-middle ul li a {
+      color: #fff; }
 
 .nav-register {
   border: 1px solid #fff;
@@ -692,13 +698,13 @@ input[type="text"]::-webkit-input-placeholder {
     color: #000;
     text-decoration: underline; }
 
-.additional-student {
+.additional-student, .additional-group-student {
   display: none; }
 
 .overlay-color {
   position: absolute;
   height: 100%;
-  width: 63%;
+  width: 60%;
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 1;
   top: 0; }
