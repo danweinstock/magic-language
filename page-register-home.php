@@ -45,11 +45,11 @@ get_header();
 			<li>
 				Pick Your Class Type:<br>
 				
-			<button class="location-type-button	blue-button" type="button"><a href="http://localhost:8888/hope/register-home/">A.In Home</a></button>
-			<button class="location-type-button blue-button" type="button"><a href="http://localhost:8888/hope/register-group/">B. Group Location</a></button>
+			<button class="location-type-button	blue-button" type="button"><a href="/hope/register-home/">A.In Home</a></button>
+			<button class="location-type-button blue-button" type="button"><a href="/hope/register-group/">B. Group Location</a></button>
 				<!--TODO custom buttons go here -->
 			</li>
-			
+		
 			<!-- TODO if they pick a class to have at home, these options should show up -->
 			<li><!-- TODO set this point to display none by default -->
 				<form>
@@ -105,12 +105,91 @@ get_header();
 					<input type="text" name="parent-guardian-email" placeholder="Enter Email Address">
 				</form>
 			</li>
-<li>
+			<li>
 				<!--TODO  if another student is added, a different set of options will show up depending on whether yes or no is clicked -->
 				Would you like to add another student?<br>
-				<button class="blue-button" type="button">A. Yes</button>
+				<button class="blue-button add-student" type="button">A. Yes</button>
 				<button class="blue-button" type="button">B. No </button>
 			</li>
+				<div class="additional-student">
+				<li>
+					<form>
+						<label>Student name</label> <br>
+						<input type="text" name="fname" placeholder="Full Student Name">
+					</form>
+				</li>
+				<li>
+					<button class="blue-button age-button" type="button">A. L1: 1-3 years old</button>
+					<button class="blue-button age-button" type="button">B. L2: 3-6 years old</button><br>
+					<button class="blue-button age-button" type="button">C. L3: 6-9 years old</button>
+					<button class="blue-button age-button" type="button">D. L4: 9-12 years old</button>
+				</li>
+				<li>
+					Choose Program Language: <br>
+					<div class="row">
+						<div class="large-4 columns language-button relative">
+							<div class="overlay-color"></div>
+								<?php
+								echo '<img src="'.get_bloginfo("stylesheet_directory").'/images/language-buttons/spanish_selected.jpg">'."<br>";
+								?>
+						</div>
+						<div class="large-4 columns language-button relative">
+							<div class="overlay-color"></div>
+								<?php
+								echo '<img src="'.get_bloginfo("stylesheet_directory").'/images/language-buttons/french_selected.jpg">'."<br>";
+								?>
+						</div>
+						<div class="large-4 columns language-button relative">
+							<div class="overlay-color"></div>
+								<?php
+								echo '<img src="'.get_bloginfo("stylesheet_directory").'/images/language-buttons/mandarin_selected.jpg">'."<br>";
+								?>
+								
+							</div>
+						</div>
+					<!--TODO implement JS logic that changes what window display when specific buttons are pressed -->
+				</li>
+				<li>
+					Pick Your Class Type:<br>
+					
+				<button class="location-type-button	blue-button" type="button"><a href="http://localhost:8888/hope/register-home/">A.In Home</a></button>
+				<button class="location-type-button blue-button" type="button"><a href="http://localhost:8888/hope/register-group/">B. Group Location</a></button>
+					<!--TODO custom buttons go here -->
+				</li>
+				<li><!-- TODO set this point to display none by default -->
+					<form>
+						Where would you like to host your classes?<br>
+							<input class="class-location" type="text" name="class-hosting-location" placeholder="Address, City, Postal Code">
+					</form>
+				</li>
+				<li>
+					<form>
+					What day(s) would you prefer your classes to take place? (Select Preferences)<br>
+					<div class="row">
+						<div class="large-3 columns">
+							<input type="checkbox"  value="Monday"> Monday<br>
+							<input type="checkbox"  value="Tuesday"> Tuesday<br>
+							<input type="checkbox" value="Wednesday"> Wednesday<br>
+							<input type="checkbox"  value="Thursday"> Thursday<br>
+						</div>
+						<div class="large-3 columns">
+							<input type="checkbox" value="Friday"> Friday<br>
+							<input type="checkbox"  value="Saturday"> Saturday<br>
+							<input type="checkbox"  value="Sunday"> Sunday<br>
+						</div>
+						<div class="columns"></div>
+					</div>
+					</form>
+				</li>
+				<li>
+					<form>
+						What time of day would you like your classes to take place?(Select Preferences)<br>
+						<input type="checkbox" value="morning">Morning<br>
+						<input type="checkbox" value ="afternoon">Afternoon<br>
+						<input type="checkbox" value="evening">Evening<br>
+					</form>
+				</li>
+			</div>
 			<li>
 				Terms and Conditions<br>
 				<div class="tos border-sm padding-lrg">
