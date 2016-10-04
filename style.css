@@ -488,6 +488,10 @@ body {
   display: -ms-flexbox;
   display: flex; }
 
+.flex-row {
+  -ms-flex-direction: row;
+      flex-direction: row; }
+
 .flex-end {
   -ms-flex-pack: end;
       justify-content: flex-end; }
@@ -1341,3 +1345,7 @@ object {
 .page-id-4 .site-content .program-header-text {
   padding-top: 120px;
   font-size: 48px; }
+
+.page-id-4 .site-content .padding-programs {
+  padding: 3rem;
+  box-sizing: border-box; }
