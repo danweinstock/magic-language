@@ -586,6 +586,12 @@ body {
 .recent-blogs .post .home-read-more a {
   color: #6992B8; }
 
+.front-blog img {
+  border-radius: 5%; }
+
+.home-blog-title {
+  font-size: 1.5rem; }
+
 /*end of home page formatting*/
 /*Footer formatting*/
 .site-footer {
@@ -708,6 +714,10 @@ input[type="text"]::-webkit-input-placeholder {
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 1;
   top: 0; }
+
+.sidebar2-title {
+  font-size: 1.5rem;
+  font-weight: bold; }
 
 /*--------------------------------------------------------------
 # Our Story Page Styling

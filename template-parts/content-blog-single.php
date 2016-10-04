@@ -7,7 +7,6 @@
  * @package magic_language
  */
 ?>
-
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
 	<?php if ( has_post_thumbnail() ) : ?>
@@ -21,7 +20,16 @@
 		endif;
 		if ( 'post' === get_post_type() ) : ?>
 		<div class="entry-meta">
-			<?php magic_language_posted_on(); ?>
+		<div class="single-blog-author">
+			Written By: <?php the_author(); ?>
+		</div>
+		<div class="single-blog-date">
+			Posted: <?php the_time('F, Y')?>
+			
+		</div>
+		<div class="single-post-categy">
+			<?php the_category() ?>
+		</div>
 		</div><!-- .entry-meta -->
 		<?php
 		endif; ?>
