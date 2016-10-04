@@ -1,6 +1,6 @@
-<h1>Programs</h1>
-<div class="program-title">Our Methodology</div>
-<div class="program-subtitle">One class a week &#9679; 15 minutes a day at home</div>
+<h1 class="program-header-image text-center blue-text program-header-text ">Programs</h1>
+<div class="program-title text-center blue-text"><h3>Our Methodology</h3></div>
+<div class="program-subtitle text-center blue-text">One class a week + 15 minutes a day at home</div>
 <div class="program-info-icons">
 	<div class="program-puzzle">
 		<i class="fa fa-puzzle-piece" aria-hidden="true"></i>
