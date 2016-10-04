@@ -692,6 +692,9 @@ input[type="text"]::-webkit-input-placeholder {
     color: #000;
     text-decoration: underline; }
 
+.additional-student {
+  display: none; }
+
 .overlay-color {
   position: absolute;
   height: 100%;
