@@ -1,21 +1,21 @@
-<h1 class="program-header-image text-center blue-text program-header-text ">Programs</h1>
+<h1 class="program-header-image text-center blue-text program-header-text">Programs</h1>
 <div class="program-title text-center blue-text"><h3>Our Methodology</h3></div>
 <div class="program-subtitle text-center blue-text">One class a week + 15 minutes a day at home</div>
-<div class="program-info-icons flex padding-lrg">
-	<div class="program-puzzle ">
-		<i class="fa fa-puzzle-piece" aria-hidden="true"></i>
+<div class="program-info-icons row padding-lrg">
+	<div class="program-puzzle large-3 column ">
+		<i class="fa fa-puzzle-piece fa-3x blue-icon-programs" aria-hidden="true"></i>
 		<p>Children learn through play without realizing it.</p>
 	</div>
-	<div class="program-music ">
-		<i class="fa fa-music" aria-hidden="true"></i>
+	<div class="program-music large-3 column ">
+		<i class="fa fa-music fa-3x blue-icon-programs" aria-hidden="true"></i>
 		<p>Songs help children practice new sounds</p>
 	</div>
-	<div class="program-globe ">
-		<i class="fa fa-globe" aria-hidden="true"></i>
+	<div class="program-globe large-3 column">
+		<i class="fa fa-globe fa-3x blue-icon-programs" aria-hidden="true"></i>
 		<p>Introduction to cultural elements reinforce the learning</p>
 	</div>
-	<div class="program-book ">
-		<i class="fa fa-book" aria-hidden="true"></i>
+	<div class="program-book large-3 column">
+		<i class="fa fa-book fa-3x blue-icon-programs" aria-hidden="true"></i>
 		<p>Word order and grammar are taught through story</p>
 	</div>
 </div>
@@ -57,7 +57,7 @@
 		<p>If you are a school, kindergarten, daycare or any other center for child education, Magic Languages can help your students learn French, Spanish and Mandarin. Our teachers are available for before-after school programs and for lessons integrated in your regular curriculum</p>
 		<button class="blue-button">Contact Us</button>
 	</div>
-	<div class="large-6 column">
+	<div class="large-6 column ">
 		<?php
 			echo '<img src="'.get_bloginfo("stylesheet_directory").'/images/bunny/black_bunny.png">'."<br>";
 		?>
@@ -94,7 +94,7 @@
 	</li>
 </ul>
 </div>
-<div class="programs-page-register">
-	<h3 class="txt-center">Start your child on the journey to a new language today.</h3>
-	<a href="#">Register</a>
+<div class="programs-page-register txt-center">
+	<h5 class="register-banner-padding">Start your child on the journey to a new language today.</h5>
+	<button class="orange-button ">Register</button>
 </div>

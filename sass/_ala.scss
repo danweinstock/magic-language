@@ -1,3 +1,5 @@
+/* Styling for Programs page done by Ala */
+
 .page-id-4{
   .site-content {
     .program-header-image {
@@ -18,7 +20,27 @@
     }
     .programs-add-school{
       box-sizing: border-box;
-      padding: 1rem;
+      padding: 3rem;
+
     }
+    .blue-icon-programs{
+      color: $color__blue-button;
+    }
+    .programs-page-register{
+      background-color: #f5fbf7;
+      width: 100%;
+      height: 180px;
+    }
+    .register-banner-padding{
+      padding-top: 65px;
+    }
+  }
+}
+
+/* Styling for Login page done by Ala */
+
+.page-id-6{
+  .site-content{
+
   }
 }
