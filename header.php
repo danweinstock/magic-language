@@ -57,6 +57,6 @@ echo '<script src="'.get_bloginfo("stylesheet_directory").'/build/js/owl.carouse
 	</header><!-- #masthead -->
 	<div class="hero">
 			<div class="title-styling"><?php echo the_title(); ?></div>
-		
+
 	</div>
-	<div id="content" class="site-content ">
+	<div id="content" class="site-content row">
