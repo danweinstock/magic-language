@@ -161,11 +161,13 @@ require get_template_directory() . '/inc/customizer.php';
 require get_template_directory() . '/inc/jetpack.php';
 
 add_image_size('front-blog', 567, 320, true);
+
 function get_custom_title($ID){
-	if (CFS()->get('custom_banner_title')!== ""){
-		echo CFS()->get('custom_banner_title');
+	if (CFS()->get('custom_banner_title') == ""){
+		echo get_the_title($ID);
+		
 	}
 	else{
-		echo get_the_title($ID);
+		echo CFS()->get('custom_banner_title');
 	}
 }

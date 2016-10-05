@@ -1,3 +1,4 @@
+
 <h1 class="program-header-image text-center blue-text program-header-text">Programs</h1>
 <div class="program-title text-center blue-text"><h3>Our Methodology</h3></div>
 <div class="program-subtitle text-center blue-text">One class a week + 15 minutes a day at home</div>
