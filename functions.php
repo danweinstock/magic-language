@@ -164,7 +164,8 @@ add_image_size('front-blog', 567, 320, true);
 
 function get_custom_title($ID){
 	if (CFS()->get('custom_banner_title') == ""){
-		echo get_the_title($ID);
+		$our_title = get_the_title( get_option('page_for_posts', true), $ID);
+		echo $our_title;
 		
 	}
 	else{

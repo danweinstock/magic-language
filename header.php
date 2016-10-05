@@ -58,7 +58,7 @@ echo '<script src="'.get_bloginfo("stylesheet_directory").'/build/js/owl.carouse
 	<div class="hero flex flex-end">
 
 		<?php if ( is_front_page() ) : ?>
-			<div class="hero-statement blue-text txt-center"><h1>The natural way to <br> learn language</h1>
+			<div class="hero-statement blue-text txt-center"><div class="hero-text"> The natural way to <br> learn language</div>
 			<button class="hero-cta orange-button">Register Today</button>
 			</div>
 		<?php endif ?>
