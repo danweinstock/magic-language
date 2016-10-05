@@ -184,6 +184,10 @@ body {
 .flex{
 	display: flex;
 }
+.flex-row {
+	flex-direction: row;
+}
+
 .flex-end{
 	justify-content: flex-end;
 }
@@ -214,3 +218,12 @@ body {
 .float-left{
 	float:left;
 }
+
+
+/* Text Manipulation */
+ .txtdecor-none{
+   text-decoration: none;
+ }
+ .txt-white{
+   color: white;
+ }
