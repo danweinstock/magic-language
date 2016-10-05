@@ -55,13 +55,15 @@ echo '<script src="'.get_bloginfo("stylesheet_directory").'/build/js/owl.carouse
 			<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
 		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->
-	<div class="hero">
+	<div class="hero flex flex-end">
 		<?php if ( is_front_page() ) : ?>
-			<div class="hero-statement absolute text-center blue-text"><h1>The natural way to learn language</h1></div>
-			<button class="hero-cta orange-button absolute">Register Today</button>
+			<div class="hero-statement blue-text txt-center"><h1>The natural way to <br> learn language</h1>
+			<button class="hero-cta orange-button">Register Today</button>
+			</div>
 		<?php endif ?>
-
+		<?php if(! is_front_page()): ?>
 		<?php get_custom_title(get_the_ID());?>
+	<?php endif ?>
 	</div>
 
 	<div id="content" class="site-content">
