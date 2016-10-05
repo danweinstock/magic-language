@@ -1,4 +1,4 @@
-<h1>Programs</h1>
+
 <div class="program-title">Our Methodology</div>
 <div class="program-subtitle">One class a week &#9679; 15 minutes a day at home</div>
 <div class="program-info-icons">

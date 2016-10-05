@@ -545,20 +545,8 @@ body {
   background-image: url("./images/home_hero_image.jpg");
   width: 100%;
   height: 501px;
-  position: relative;
   background-size: 100%;
   background-repeat: no-repeat; }
-
-.hero-statement {
-  top: 20%;
-  left: 50%; }
-
-.hero-cta {
-  height: 3rem;
-  width: 12rem;
-  top: 50%;
-  left: 67%;
-  border-radius: 5%; }
 
 .main-navigation {
   margin-right: 4%; }
