@@ -97,6 +97,15 @@ function magic_language_widgets_init() {
 		'before_title'  => '<h2 class="widget-title">',
 		'after_title'   => '</h2>',
 	) );
+		register_sidebar( array(
+		'name'          => esc_html__( 'Sidebar-2', 'magic_language' ),
+		'id'            => 'sidebar-2',
+		'description'   => esc_html__( 'Add widgets here.', 'magic_language' ),
+		'before_widget' => '<section id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</section>',
+		'before_title'  => '<div class="blue-text sidebar2-title">',
+		'after_title'   => '</div>',
+	) );
 }
 add_action( 'widgets_init', 'magic_language_widgets_init' );
 
@@ -150,3 +159,13 @@ require get_template_directory() . '/inc/customizer.php';
  * Load Jetpack compatibility file.
  */
 require get_template_directory() . '/inc/jetpack.php';
+
+add_image_size('front-blog', 567, 320, true);
+function get_custom_title($ID){
+	if (CFS()->get('custom_banner_title')!== ""){
+		echo CFS()->get('custom_banner_title');
+	}
+	else{
+		echo get_the_title($ID);
+	}
+}

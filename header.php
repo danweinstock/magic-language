@@ -55,5 +55,9 @@ echo '<script src="'.get_bloginfo("stylesheet_directory").'/build/js/owl.carouse
 			<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
 		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->
-	<div class="hero"></div>
+	<div class="hero">
+
+		<?php get_custom_title(get_the_ID()); ?>
+	</div>
+
 	<div id="content" class="site-content">

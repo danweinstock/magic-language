@@ -1,10 +1,123 @@
+
+// Random Styling
+
+.center{
+    text-align: center;
+}
+
+.location-button{
+    color: white;
+    padding: 2rem;
+}
+
+.full-width {
+   width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+   max-width: initial;
+}
+
+.sub-footer{
+    background-color: #F5FBF7;
+    padding: 8% 8% 5% 8%;
+}
+
+.blue{
+    color: #6992B8;
+}
+
+.rounded-corners{
+    border-radius: 10px;
+}
+
+
+// Specific Page Styling
+
 .page-id-7{
+    .hero {
+        background-image: url("./images/spash_banner.png");
+        width: auto;
+        height: 400px;
+        background-size: cover; 
+        display: flex;
+        align-items: center;
+        justify-content: center
+    }
+    .teachers {
+        img {
+            border-radius: 5px;
+        }
+    }
+    button{
+        background: none;
+        border-color: #FFF;
+    }
+    .blue-button{
+    	color: $color__background-body;
+    	background: $color__blue-button;
+        width: 14rem;
+        height: 3rem;
+    	border:none;
+        outline: none;
+        font-size: 1.5rem;
+        border-radius: 5px;
+    }
+    .class-button{
+    	color: $color__background-body;
+    	background: $color__orange-button;
+        width: 10rem;
+        height: 2rem;
+    	border:none;
+        outline: none;
+        font-size: 1rem;
+        border-radius: 4px;
+    }
+}
+
+.page-id-34{
     .story-background {
         background-image: url("./images/spash_banner.png");
         width: auto;
         height: 400px;
         background-size: cover;
+    },
+    button{
+        background: none;
+        border-color: #FFF;
     }
+    .blue-button{
+    	color: $color__background-body;
+    	background: $color__blue-button;
+        width: 14rem;
+        height: 3rem;
+    	border:none;
+        outline: none;
+        font-size: 1.5rem;
+        border-radius: 5px;
+    }
+    .class-button{
+    	color: $color__background-body;
+    	background: $color__orange-button;
+        width: 10rem;
+        height: 2rem;
+    	border:none;
+        outline: none;
+        font-size: 1rem;
+        border-radius: 4px;
+    }
+}
+
+
+// Text Styling
+
+.intro-text{
+    padding: 6% 6% 5% 6%;
+    font-size: 1.25rem;
+}
+
+.intro-text-location{
+    padding: 8% 7% 5% 7%;
+    font-size: 1.25rem;
 }
 
 .title-styling{
@@ -15,7 +128,82 @@
     color: #6991B7;
 }
 
-.intro-text{
-    padding: 1% 1% 1% 1%;
+.title-teacher{
+    text-align: center;
+    padding-top: 11%;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #6991B7;
+    padding-bottom: 3rem;
+}
 
+.title-founder{
+    text-align: left;
+    //padding-top: 11%;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #6991B7;
+    //padding-bottom: 3rem;
+}
+
+.title-neighbourhood{
+    text-align: left;
+    padding-left: 5.25rem;
+    //padding-top: 11%;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #6991B7;
+    //padding-bottom: 3rem;
+}
+
+.title-location-info{
+    text-align: left;
+    padding-left: 3rem;
+    //padding-top: 11%;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #6991B7;
+    padding-bottom: 3rem;
+}
+
+.title-teacher-name {
+    text-align: left;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #6991B7;
+}
+
+
+// This is my padding
+
+.padding-bot-med{
+    padding-bottom: 2.5rem;
+}
+
+.padding-bot-sm{
+    padding-bottom: 1.25rem;
+}
+
+.padding-bot-big{
+    padding-bottom: 5rem;
+}
+
+.padding-left{
+    padding-left: 2rem;
+}
+
+.padding-top-med{
+    padding-top: 41rem;
+}
+
+.padding-top{
+    padding-top: 1.5rem;
+}
+
+.padding-top-lrg{
+    padding-top: 15rem;
+}
+
+.pad-left{
+    padding-left: 4rem;
 }

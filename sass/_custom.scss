@@ -75,7 +75,15 @@
 		}
 	}
 }
-
+.front-blog{
+	img{
+	border-radius: 5%;
+		
+	}
+}
+.home-blog-title{
+	font-size: 1.5rem;
+}
 /*end of home page formatting*/
 /*Footer formatting*/
 .site-footer{
@@ -85,6 +93,8 @@
 	color: $color__background-body;
 }
 .social-buttons{
+	margin-top: 4rem;
+	margin-bottom: 1rem;
 	i{
 		color: $color__background-body;
 		border: 1px solid $color__background-body;
@@ -95,12 +105,14 @@
 		align-items: center;
 		border-radius: 50%;
 		margin: 4%;
+		font-size: 1.5rem;
 	}
 }
 .footer-left{
 	padding-left: 4%;
 }
 .left-middle{
+	margin-top: 4rem;
 	ul{
 		li{
 			padding: 4% 4% 4% 0;
@@ -114,6 +126,7 @@
 }
 
 .right-middle{
+	margin-top: 4rem;
 	ul{
 		li{
 			padding: 4% 4% 4% 0;
@@ -145,7 +158,7 @@ input[type="text"]::-webkit-input-placeholder{
 }
 /*end of footer formatting*/ 
 
-.page-id-13, .page-id-64{
+.page-id-13, .page-id-64, .blog{
 	.hero{
 		background: url("./images/spash_banner.png");
 		width: 100%;
@@ -207,16 +220,27 @@ input[type="text"]::-webkit-input-placeholder{
 		color: #000;
 		text-decoration: underline;
 	}
+
 }
-.additional-student{
+.tos-accept{
+	margin-top: 1rem;
+		input[type="checkbox"]{
+		margin-right: 1rem;
+	}
+}
+.additional-student, .additional-group-student{
 	display:none;
 }
 .overlay-color{
 		position:absolute;
 		height: 100%;
-		width: 63%;
+		width: 60%;
 		background-color: rgba(0, 0, 0, 0.5);
 		z-index: 1;
 		top: 0;
 	}
+.sidebar2-title{
+	font-size: 1.5rem;
+	font-weight: bold;
+}
 
