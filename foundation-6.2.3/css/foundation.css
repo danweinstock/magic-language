@@ -1,4 +1,4 @@
-@charset "UTF-8";
+ @charset "UTF-8";
 /**
  * Foundation for Sites by ZURB
  * Version 6.2.3
@@ -376,7 +376,7 @@ html {
 body {
   padding: 0;
   margin: 0;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  /*font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;*/
   font-weight: normal;
   line-height: 1.5;
   color: #0a0a0a;
@@ -1211,7 +1211,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  /*font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;*/
   font-weight: normal;
   font-style: normal;
   color: inherit;
@@ -3231,7 +3231,7 @@ table.hover tr:nth-of-type(even):hover {
 .tabs.primary {
   background: #2199e8; }
   .tabs.primary > li > a {
-    color: #fefefe; }
+    color: #fff; }
     .tabs.primary > li > a:hover, .tabs.primary > li > a:focus {
       background: #1893e4; }
 

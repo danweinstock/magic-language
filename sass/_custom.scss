@@ -18,20 +18,9 @@
 		background-image: url("./images/home_hero_image.jpg");
 		width: 100%;
 		height: 501px;
-		position:relative;
 		background-size: 100%;
+		background-repeat: no-repeat;
 	}
-}
-.hero-statement{
-	top: 20%;
-	left: 50%;
-}
-.hero-cta{
-	height: 3rem;
-	width: 12rem;
-	top: 50%;
-	left: 67%;
-	border-radius: 5%;
 }
 .main-navigation{
 	margin-right: 4%;
@@ -74,21 +63,26 @@
 		}
 	}
 }
-
+.front-blog{
+	img{
+	border-radius: 5%;
+		
+	}
+}
+.home-blog-title{
+	font-size: 1.5rem;
+}
 /*end of home page formatting*/
 /*Footer formatting*/
-// .social-buttons{
-// 	i{
-// 		color: $color__background-body;
-// 	}
-// }
 .site-footer{
-	background-color: #2e4e5f;
+	background-color: $color__blue-button;
 }
 .footer-address{
 	color: $color__background-body;
 }
 .social-buttons{
+	margin-top: 4rem;
+	margin-bottom: 1rem;
 	i{
 		color: $color__background-body;
 		border: 1px solid $color__background-body;
@@ -98,13 +92,15 @@
 		justify-content: center;
 		align-items: center;
 		border-radius: 50%;
-
+		margin: 4%;
+		font-size: 1.5rem;
 	}
 }
 .footer-left{
 	padding-left: 4%;
 }
 .left-middle{
+	margin-top: 4rem;
 	ul{
 		li{
 			padding: 4% 4% 4% 0;
@@ -118,6 +114,7 @@
 }
 
 .right-middle{
+	margin-top: 4rem;
 	ul{
 		li{
 			padding: 4% 4% 4% 0;
@@ -133,3 +130,105 @@
 	padding: 4%;
 	margin-right: 4%;
 }
+input[type="text"]::-webkit-input-placeholder{
+		color: #000;
+	} 
+.footer-newsletter{
+	label{
+		color: $color__background-body;
+		font-size: 1rem;
+	}
+}
+.copyright{
+	font-size: 0.6rem;
+	color: $color__background-body;
+	top: 16rem;
+}
+/*end of footer formatting*/ 
+
+.page-id-13, .page-id-64, .blog{
+	.hero{
+		background: url("./images/spash_banner.png");
+		width: 100%;
+		height: 21rem;
+		position:relative;
+		background-size: 100%;
+		background-repeat: no-repeat;
+	}
+}
+.register-title{
+	top: 30%;
+	left: 38%;
+	font-size: 3rem;
+}
+.register-body{
+	margin-left: 2%;
+		label{
+			font-size: 1rem;
+		}
+		input[type=text]{
+			width: 50%;
+		}
+		.age-button, .location-type-button, .session-button{
+			margin: 0.5%;
+			height: 2.8rem;
+		}
+		.age-button, .location-type-button{
+			width: 12.7rem;
+		}
+		.session-button{
+			width: 17.7rem;
+		}
+		.location-type-button{
+			a{
+				color: #fff;
+			}
+		}
+		li{
+			margin-top: 1rem;
+		}
+}
+.location-button{
+	margin-bottom: 2rem;
+}
+.tos{
+	overflow:scroll;
+	height: 10rem;
+	width:75%;
+}
+.tos-body{
+	font-size: 0.8rem;
+}
+.checkout-button{
+	margin-left: 42%;
+}
+.print-tos{
+	right: 20rem;
+	a.print-tos-link{
+		color: #000;
+		text-decoration: underline;
+	}
+
+}
+.tos-accept{
+	margin-top: 1rem;
+		input[type="checkbox"]{
+		margin-right: 1rem;
+	}
+}
+.additional-student, .additional-group-student{
+	display:none;
+}
+.overlay-color{
+		position:absolute;
+		height: 100%;
+		width: 60%;
+		background-color: rgba(0, 0, 0, 0.5);
+		z-index: 1;
+		top: 0;
+	}
+.sidebar2-title{
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+

@@ -56,7 +56,19 @@ echo '<script src="'.get_bloginfo("stylesheet_directory").'/build/js/owl.carouse
 		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->
 	<div class="hero">
+<<<<<<< HEAD
 			<div class="title-styling"><?php echo the_title(); ?></div>
 
 	</div>
 	<div id="content" class="site-content row">
+=======
+		<?php if ( is_front_page() ) : ?>
+			<div class="hero-statement absolute text-center blue-text"><h1>The natural way to learn language</h1></div>
+			<button class="hero-cta orange-button absolute">Register Today</button>
+		<?php endif ?>
+
+		<?php get_custom_title(get_the_ID());?>
+	</div>
+
+	<div id="content" class="site-content">
+>>>>>>> master

@@ -97,6 +97,15 @@ function magic_language_widgets_init() {
 		'before_title'  => '<h2 class="widget-title">',
 		'after_title'   => '</h2>',
 	) );
+		register_sidebar( array(
+		'name'          => esc_html__( 'Sidebar-2', 'magic_language' ),
+		'id'            => 'sidebar-2',
+		'description'   => esc_html__( 'Add widgets here.', 'magic_language' ),
+		'before_widget' => '<section id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</section>',
+		'before_title'  => '<div class="blue-text sidebar2-title">',
+		'after_title'   => '</div>',
+	) );
 }
 add_action( 'widgets_init', 'magic_language_widgets_init' );
 
@@ -105,17 +114,19 @@ add_action( 'widgets_init', 'magic_language_widgets_init' );
  */
 function magic_language_scripts() {
 	//wp_enqueue_script ('jquery');
-
-
 	wp_enqueue_style ('foundation',get_bloginfo("stylesheet_directory").'/foundation-6.2.3/css/foundation.css');
+wp_enqueue_style( 'magic_language-style', get_stylesheet_uri() );
 
-	wp_enqueue_style( 'magic_language-style', get_stylesheet_uri() );
+
+	
 	wp_enqueue_script( 'magic_language-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 
 	wp_enqueue_script( 'magic_language-plugin', get_template_directory_uri() . '/js/plugin.js', array('jquery'), '20151215', true );
 
+	wp_enqueue_script( 'magic_language-custom-scripts', get_template_directory_uri(). '/js/site.js');
+
 	wp_enqueue_script( 'magic_language-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
-	wp_enqueue_script('foundation-init',get_bloginfo("stylesheet_directory").'/foundation-init.js');
+	wp_enqueue_script('foundation-init',get_bloginfo("stylesheet_directory").'/foundation-6.2.3/js/app.js');
 	wp_enqueue_script('foundation-min-js',get_bloginfo("stylesheet_directory").'/foundation-6.2.3/js/vendor/foundation.min.js');
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
@@ -148,3 +159,15 @@ require get_template_directory() . '/inc/customizer.php';
  * Load Jetpack compatibility file.
  */
 require get_template_directory() . '/inc/jetpack.php';
+
+add_image_size('front-blog', 567, 320, true);
+
+function get_custom_title($ID){
+	if (CFS()->get('custom_banner_title') == ""){
+		echo get_the_title($ID);
+		
+	}
+	else{
+		echo CFS()->get('custom_banner_title');
+	}
+}
