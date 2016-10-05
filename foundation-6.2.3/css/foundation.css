@@ -429,7 +429,7 @@ button {
   display: none !important; }
 
 .row {
-  max-width: 75rem;
+  max-width: 70rem;
   margin-left: auto;
   margin-right: auto; }
   .row::before, .row::after {
@@ -1248,7 +1248,7 @@ h6 {
 
 @media screen and (min-width: 40em) {
   h1 {
-    font-size: 3rem; 
+    font-size: 3rem;
     font-weight: bold;}
   h2 {
     font-size: 2.5rem; }

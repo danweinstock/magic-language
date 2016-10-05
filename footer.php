@@ -13,10 +13,19 @@
 
 	</div><!-- #content -->
 
+	<div class="sub-footer">
+		<?php while ( have_posts() ) : the_post(); ?>
+			<?php echo CFS()->get('sub_footer'); ?>
+		<?php endwhile; wp_reset_query();?>
+	</div>
+
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info row">
+
+	
+
 			<div class="footer-left large-4 medium-4 small-4 columns">
-				<?php 
+
 		 			echo '<img src="'.get_bloginfo("stylesheet_directory").'/images/footer_logo.png">'."<br>";
 				?>
 				<div class="footer-address">
@@ -26,8 +35,10 @@
 					<a class="footer-link" href="mailto:info@magic-languages.com">info@magic-languages.com</a>
 				</div>
 			</div>
+
 			
 				<div class="left-middle large-2 medium-2 small-2 columns">
+
 					<ul>
 						<li><a href="#">Our Story</a></li>
 						<li><a href="#">Programs</a></li>
@@ -45,9 +56,11 @@
 						<li><a href="#">Login</a></li>
 					</ul>
 				</div>
+
 		
 			<div class="large-3 medium-3 small-3 columns relative">
 				<div class="social-buttons flex flex-end">
+
 					<i class="fa fa-facebook" aria-hidden="true"></i>
 					<i class="fa fa-twitter" aria-hidden="true"></i>
 					<i class="fa fa-instagram" aria-hidden="true"></i>

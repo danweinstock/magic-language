@@ -34,14 +34,10 @@ get_header(); ?>
 			<?php endwhile; wp_reset_query();?>
 		</main><!-- #main -->
 
-		<div class="sub-footer">
-			<?php while ( have_posts() ) : the_post(); ?>
-				<?php echo CFS()->get('sub_footer'); ?>
-			<?php endwhile; wp_reset_query();?>
-		</div>
+
 
 	</div><!-- #primary -->
-
+	
 <?php
 //get_sidebar();
 get_footer();

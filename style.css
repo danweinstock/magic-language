@@ -790,11 +790,17 @@ input[type="text"]::-webkit-input-placeholder {
   font-size: 1rem;
   border-radius: 4px; }
 
-.page-id-34 .story-background {
+.page-id-34 .hero {
   background-image: url("./images/spash_banner.png");
   width: auto;
   height: 400px;
-  background-size: cover; }
+  background-size: cover;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center; }
 
 .page-id-34,
 .page-id-34 button {
@@ -822,7 +828,7 @@ input[type="text"]::-webkit-input-placeholder {
   border-radius: 4px; }
 
 .intro-text {
-  padding: 6% 6% 5% 6%;
+  padding: 6% 0% 5% 0%;
   font-size: 1.25rem; }
 
 .intro-text-location {
@@ -831,7 +837,6 @@ input[type="text"]::-webkit-input-placeholder {
 
 .title-styling {
   text-align: center;
-  padding-top: 11%;
   font-size: 4rem;
   font-weight: bold;
   color: #6991B7; }
@@ -1573,11 +1578,17 @@ object {
   font-size: 1rem;
   border-radius: 4px; }
 
-.page-id-34 .story-background {
+.page-id-34 .hero {
   background-image: url("./images/spash_banner.png");
   width: auto;
   height: 400px;
-  background-size: cover; }
+  background-size: cover;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center; }
 
 .page-id-34,
 .page-id-34 button {
@@ -1605,7 +1616,7 @@ object {
   border-radius: 4px; }
 
 .intro-text {
-  padding: 6% 6% 5% 6%;
+  padding: 6% 0% 5% 0%;
   font-size: 1.25rem; }
 
 .intro-text-location {
@@ -1614,7 +1625,6 @@ object {
 
 .title-styling {
   text-align: center;
-  padding-top: 11%;
   font-size: 4rem;
   font-weight: bold;
   color: #6991B7; }
