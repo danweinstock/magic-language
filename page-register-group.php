@@ -241,7 +241,7 @@ get_header();
 	
 	<div class="print-tos absolute"><a class="print-tos-link"href="">Printable Version</a></div>
 				
-				<form>
+				<form class="tos-accept">
 					<input type="checkbox" name="terms-agree">I have read and
 					agree to the Magic Languages Terms and Conditions
 					<!--TODO include link to access printable version pdf -->
