@@ -55,17 +55,8 @@ echo '<script src="'.get_bloginfo("stylesheet_directory").'/build/js/owl.carouse
 			<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
 		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->
-<<<<<<< HEAD
 	<div class="hero flex flex-end">
-=======
-	<div class="hero">
-<<<<<<< HEAD
-			<div class="title-styling"><?php echo the_title(); ?></div>
 
-	</div>
-	<div id="content" class="site-content row">
-=======
->>>>>>> 112564a986bcc46b304ec271820a1c6a48cb6b36
 		<?php if ( is_front_page() ) : ?>
 			<div class="hero-statement blue-text txt-center"><h1>The natural way to <br> learn language</h1>
 			<button class="hero-cta orange-button">Register Today</button>
@@ -74,7 +65,7 @@ echo '<script src="'.get_bloginfo("stylesheet_directory").'/build/js/owl.carouse
 		<?php if(! is_front_page()): ?>
 		<?php get_custom_title(get_the_ID());?>
 	<?php endif ?>
-	</div>
+	
 
-	<div id="content" class="site-content">
->>>>>>> master
+	</div>
+	<div id="content" class="site-content row">
