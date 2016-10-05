@@ -7,10 +7,15 @@
  */
 ?>
 
-<h1> Login </h1>
-<div>
-	<div>
+
+<div class="row">
+	<div class="large-4 large-centered">
+		<form action="#">
 		Username:<br><input type="text" id="username" class="">
 		Password:<br><input type="text" id="password">
+		</form>
+	</div>
+	<div>
+		<button type="button">Submit</button>
 	</div>
 </div>

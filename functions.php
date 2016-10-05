@@ -150,3 +150,14 @@ require get_template_directory() . '/inc/customizer.php';
  * Load Jetpack compatibility file.
  */
 require get_template_directory() . '/inc/jetpack.php';
+
+function get_custom_title($ID){
+	if (CFS()->get('custom_banner_title') == ""){
+		echo get_the_title($ID);
+
+	}
+	else{
+		echo CFS()->get('custom_banner_title');
+	}
+}
+
