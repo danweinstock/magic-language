@@ -10,13 +10,15 @@
 get_header(); ?>
 
 	<div id="primary" class="content-area">
-		<main id="main" class="site-main" role="main">
+		<main id="main" class="site-main clear padding-bot-big" role="main">
 			<?php while ( have_posts() ) : the_post(); ?>
-				<h1><?php echo the_title(); ?></h1>
+				<div class="story-background">
+					<div class="title-styling"><?php echo the_title(); ?></div>
+				</div>
 				<?php echo the_content(); ?>
                     <div class="">
 
-					<h1>Choose a Neighbourhood</h1>
+
 			<?php endwhile; wp_reset_query();?>
 
 			<?php
@@ -34,9 +36,13 @@ get_header(); ?>
 
 		</main><!-- #main -->
 
-		<?php while ( have_posts() ) : the_post(); ?>
-			<?php echo CFS()->get('sub_footer'); ?>
-		<?php endwhile; wp_reset_query();?>
+		<div class="sub-footer">
+			<?php while ( have_posts() ) : the_post(); ?>
+				<?php echo CFS()->get('sub_footer'); ?>
+			<?php endwhile; wp_reset_query();?>
+		</div>
+
+
 	</div><!-- #primary -->
 
 <?php

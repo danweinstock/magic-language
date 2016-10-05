@@ -629,11 +629,106 @@ body {
 /*--------------------------------------------------------------
 # Our Story Page Styling
 --------------------------------------------------------------*/
-.page-id-7 .story-background {
+.center {
+  text-align: center; }
+
+.location-button {
+  color: white;
+  padding: 2rem; }
+
+.full-width {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: initial; }
+
+.sub-footer {
+  background-color: #F5FBF7;
+  padding: 8% 8% 5% 8%; }
+
+.blue {
+  color: #6992B8; }
+
+.rounded-corners {
+  border-radius: 10px; }
+
+.page-id-7 .hero {
+  background-image: url("./images/spash_banner.png");
+  width: auto;
+  height: 400px;
+  background-size: cover;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center; }
+
+.page-id-7 .teachers img {
+  border-radius: 5px; }
+
+.page-id-7 button {
+  background: none;
+  border-color: #FFF; }
+
+.page-id-7 .blue-button {
+  color: #fff;
+  background: #6992B8;
+  width: 14rem;
+  height: 3rem;
+  border: none;
+  outline: none;
+  font-size: 1.5rem;
+  border-radius: 5px; }
+
+.page-id-7 .class-button {
+  color: #fff;
+  background: #E98E73;
+  width: 10rem;
+  height: 2rem;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  border-radius: 4px; }
+
+.page-id-34 .story-background {
   background-image: url("./images/spash_banner.png");
   width: auto;
   height: 400px;
   background-size: cover; }
+
+.page-id-34,
+.page-id-34 button {
+  background: none;
+  border-color: #FFF; }
+
+.page-id-34 .blue-button {
+  color: #fff;
+  background: #6992B8;
+  width: 14rem;
+  height: 3rem;
+  border: none;
+  outline: none;
+  font-size: 1.5rem;
+  border-radius: 5px; }
+
+.page-id-34 .class-button {
+  color: #fff;
+  background: #E98E73;
+  width: 10rem;
+  height: 2rem;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  border-radius: 4px; }
+
+.intro-text {
+  padding: 6% 6% 5% 6%;
+  font-size: 1.25rem; }
+
+.intro-text-location {
+  padding: 8% 7% 5% 7%;
+  font-size: 1.25rem; }
 
 .title-styling {
   text-align: center;
@@ -642,8 +737,64 @@ body {
   font-weight: bold;
   color: #6991B7; }
 
-.intro-text {
-  padding: 1% 1% 1% 1%; }
+.title-teacher {
+  text-align: center;
+  padding-top: 11%;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #6991B7;
+  padding-bottom: 3rem; }
+
+.title-founder {
+  text-align: left;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #6991B7; }
+
+.title-neighbourhood {
+  text-align: left;
+  padding-left: 5.25rem;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #6991B7; }
+
+.title-location-info {
+  text-align: left;
+  padding-left: 3rem;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #6991B7;
+  padding-bottom: 3rem; }
+
+.title-teacher-name {
+  text-align: left;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #6991B7; }
+
+.padding-bot-med {
+  padding-bottom: 2.5rem; }
+
+.padding-bot-sm {
+  padding-bottom: 1.25rem; }
+
+.padding-bot-big {
+  padding-bottom: 5rem; }
+
+.padding-left {
+  padding-left: 2rem; }
+
+.padding-top-med {
+  padding-top: 41rem; }
+
+.padding-top {
+  padding-top: 1.5rem; }
+
+.padding-top-lrg {
+  padding-top: 15rem; }
+
+.pad-left {
+  padding-left: 4rem; }
 
 /*--------------------------------------------------------------
 # Typography
@@ -757,13 +908,7 @@ input[type="submit"] {
   font-size: 15px;
   font-size: 0.75rem;
   line-height: 1;
-  padding: .6em 1em .4em;
-  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8); }
-  button:hover,
-  input[type="button"]:hover,
-  input[type="reset"]:hover,
-  input[type="submit"]:hover {
-    border-color: #ccc #bbb #aaa; }
+  padding: .6em 1em .4em; }
   button:active, button:focus,
   input[type="button"]:active,
   input[type="button"]:focus,
@@ -771,7 +916,7 @@ input[type="submit"] {
   input[type="reset"]:focus,
   input[type="submit"]:active,
   input[type="submit"]:focus {
-    border-color: #aaa #bbb #bbb; }
+    outline: none; }
 
 input[type="text"],
 input[type="email"],
@@ -1106,7 +1251,7 @@ object {
 /*--------------------------------------------------------------
 # Owl Carousel
 --------------------------------------------------------------*/
-/* 
+/*
  * 	Core Owl Carousel CSS File
  *	v1.3.3
  */
@@ -1171,7 +1316,7 @@ object {
 # Owl Theme
 --------------------------------------------------------------*/
 /*
-* 	Owl Carousel Owl Demo Theme 
+* 	Owl Carousel Owl Demo Theme
 *	v1.3.3
 */
 .owl-theme .owl-controls {
@@ -1180,19 +1325,46 @@ object {
 
 /* Styling Next and Prev buttons */
 .owl-theme .owl-controls .owl-buttons div {
-  color: #FFF;
   display: inline-block;
   zoom: 1;
   *display: inline;
   /*IE7 life-saver */
   margin: 5px;
   padding: 3px 10px;
-  font-size: 12px;
-  border-radius: 30px;
-  background: #869791;
-  filter: Alpha(Opacity=50);
-  /*IE7 fix*/
-  opacity: 0.5; }
+  font-size: 12px; }
+
+.owl-buttons {
+  font-family: 'fontAwesome';
+  color: red;
+  float: left;
+  width: 50px;
+  height: 50px; }
+
+.owl-prev:before {
+  content: '\f053';
+  font-size: 2rem;
+  color: #2E4E5E;
+  position: absolute;
+  top: 9rem; }
+
+.owl-prev {
+  float: left;
+  width: 50px;
+  height: 50px; }
+
+.owl-next:before {
+  content: "\f054";
+  font-size: 2rem;
+  color: #2E4E5E;
+  position: absolute;
+  top: 9rem;
+  right: 0;
+  padding-right: 2rem; }
+
+.owl-next {
+  float: right;
+  width: 50px;
+  height: 50px; }
 
 /* Clickable class fix problem with hover on touch devices */
 /* Use it for non-touch hover action */
