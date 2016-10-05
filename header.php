@@ -56,7 +56,8 @@ echo '<script src="'.get_bloginfo("stylesheet_directory").'/build/js/owl.carouse
 		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->
 	<div class="hero">
+
 		<?php get_custom_title(get_the_ID()); ?>
 	</div>
-	
+
 	<div id="content" class="site-content">

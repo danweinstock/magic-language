@@ -1,5 +1,5 @@
 /*
-* 	Owl Carousel Owl Demo Theme 
+* 	Owl Carousel Owl Demo Theme
 *	v1.3.3
 */
 
@@ -11,20 +11,68 @@
 /* Styling Next and Prev buttons */
 
 .owl-theme .owl-controls .owl-buttons div{
-	color: #FFF;
+	//color: #FFF;
 	display: inline-block;
 	zoom: 1;
 	*display: inline;/*IE7 life-saver */
 	margin: 5px;
 	padding: 3px 10px;
 	font-size: 12px;
-	-webkit-border-radius: 30px;
-	-moz-border-radius: 30px;
-	border-radius: 30px;
-	background: #869791;
-	filter: Alpha(Opacity=50);/*IE7 fix*/
-	opacity: 0.5;
+
+
+	//-webkit-border-radius: 30px;
+	//-moz-border-radius: 30px;
+	//border-radius: 30px;
+	//background: #869791;
+	//filter: Alpha(Opacity=50);/*IE7 fix*/
+	//opacity: 0.5;
 }
+
+.owl-buttons{
+	//text-indent: -999px;
+	font-family: 'fontAwesome';
+	color: red;
+	float: left;
+    //margin-right:10px;
+	width: 50px;
+	height: 50px;
+}
+
+.owl-prev:before{
+	content: '\f053';
+	font-size: 2rem;
+	color: #2E4E5E;
+	position: absolute;
+	top: 9rem;
+
+}
+.owl-prev{
+	//font-family: 'fontAwesome';
+	float: left;
+    //margin-right:10px;
+	width: 50px;
+	height: 50px;
+
+}
+
+.owl-next:before{
+	content: "\f054";
+	font-size: 2rem;
+	color: #2E4E5E;
+	position: absolute;
+	top: 9rem;
+	right: 0;
+	padding-right: 2rem;
+}
+
+.owl-next{
+	//font-family: 'fontAwesome';
+	//color: red;
+	float: right;
+	width: 50px;
+	height: 50px;
+}
+
 /* Clickable class fix problem with hover on touch devices */
 /* Use it for non-touch hover action */
 .owl-theme .owl-controls.clickable .owl-buttons div:hover{
