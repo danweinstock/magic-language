@@ -26,7 +26,7 @@
 
 			<div class="footer-left large-4 medium-4 small-4 columns">
 
-		 			echo '<img src="'.get_bloginfo("stylesheet_directory").'/images/footer_logo.png">'."<br>";
+		 			<?echo '<img src="'.get_bloginfo("stylesheet_directory").'/images/footer_logo.png">'."<br>";
 				?>
 				<div class="footer-address">
 					1233 Yonge Street, Unit 203<br>

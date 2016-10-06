@@ -1,7 +1,6 @@
 <?php
 get_header();
 ?>
-<h1 class="register-title absolute blue-text">Registration</h1>
 <div class="register-body">
 	<h1 class="blue-text">Enter your information</h1>
 		<ol class="register-form">
