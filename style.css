@@ -1383,3 +1383,6 @@ object {
 .page-id-6 .site-content .login-header-text {
   padding-top: 100px;
   font-size: 48px; }
+
+.page-id-6 .site-content .forget-link-padding {
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem; }
