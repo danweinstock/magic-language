@@ -4,10 +4,12 @@
 
    jQuery('#owl-example').owlCarousel({
        navigation : true, // Show next and prev buttons
+       navigationText : false,
        slideSpeed : 300,
        paginationSpeed : 400,
-       singleItem: true
-
+       singleItem: true,
+       dots: false,
+       pagination: false
 
    });
 

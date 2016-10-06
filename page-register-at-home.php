@@ -1,7 +1,6 @@
 <?php
 get_header();
 ?>
-<h1 class="register-title absolute blue-text">Registration</h1>
 <div class="register-body">
 	<h1 class="blue-text">Enter your information</h1>
 		<ol class="register-form">
@@ -214,7 +213,7 @@ get_header();
 	
 	<div class="print-tos absolute"><a class="print-tos-link"href="">Printable Version</a></div>
 				
-				<form>
+				<form class="tos-accept">
 					<input type="checkbox" name="terms-agree">I have read and
 					agree to the Magic Languages Terms and Conditions
 					<!--TODO include link to access printable version pdf -->

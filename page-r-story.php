@@ -12,15 +12,12 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 			<?php while ( have_posts() ) : the_post(); ?>
-				<div class="story-background">
-					<div class="title-styling"><?php echo the_title(); ?></div>
-				</div>
-				<div class="intro-text">
+				<div class="">
 					<?php echo the_content(); ?>
 				</div>
-			<div class="">
+			<div class="bea right"></div>
 
-				<h1>Meet our Teachers</h1>
+				<div class="title-teacher">Meet our Teachers</div>
 			<?php endwhile; wp_reset_query();?>
                 <?php
 
@@ -32,15 +29,15 @@ get_header(); ?>
 			<?php while ( have_posts() ) : the_post(); ?>
 
             </div>
-            <div class="">
-                <h4>Start your child on the journey to a new language today.</h4>
-                <a href="https://www.google.ca"> <button class="">Programs</button> </a>
-            </div>
+
 
 			<?php endwhile; wp_reset_query();?>
 		</main><!-- #main -->
-	</div><!-- #primary -->
 
+
+
+	</div><!-- #primary -->
+	
 <?php
 //get_sidebar();
 get_footer();

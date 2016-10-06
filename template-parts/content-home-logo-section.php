@@ -1,5 +1,3 @@
-<div class="hero-statement absolute text-center blue-text"><h1>The natural way to learn language</h1></div>
-<button class="hero-cta orange-button absolute">Register Today</button>
 <div class="row">
 	<div class="home-icons large-4 columns text-center">
 		<i class="fa fa-plane blue-text" aria-hidden="true"></i>
