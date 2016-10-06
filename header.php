@@ -55,7 +55,7 @@ echo '<script src="'.get_bloginfo("stylesheet_directory").'/build/js/owl.carouse
 			<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
 		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->
-	<div class="hero flex flex-end">
+	<div class="hero">
 
 		<?php if ( is_front_page() ) : ?>
 			
