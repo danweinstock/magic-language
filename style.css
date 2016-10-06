@@ -798,6 +798,39 @@ input[type="text"]::-webkit-input-placeholder {
   font-size: 1rem;
   border-radius: 4px; }
 
+.page-id-7 .title-founder {
+  text-align: left;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #6991B7;
+  line-height: 3rem; }
+
+.page-id-7 .padding-founder {
+  padding-left: .15rem;
+  padding-bottom: 1.5rem; }
+
+.page-id-7 .title-teacher {
+  text-align: center;
+  padding-top: 4%;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #6991B7;
+  padding-bottom: 2rem; }
+
+.page-id-7 .padding-right-teacher {
+  padding-right: 2.5rem; }
+
+.page-id-7 .padding-right-teacher-profile {
+  padding-right: 5rem; }
+
+.page-id-7 .title-teacher-name {
+  text-align: left;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #6991B7;
+  padding-top: 1rem;
+  line-height: 1.25rem; }
+
 .page-id-34 .hero {
   background-image: url("./images/spash_banner.png");
   width: auto;
@@ -835,6 +868,13 @@ input[type="text"]::-webkit-input-placeholder {
   font-size: 1rem;
   border-radius: 4px; }
 
+.page-id-34 .title-founder {
+  text-align: left;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #6991B7;
+  line-height: 3rem; }
+
 .intro-text {
   padding: 6% 0% 5% 0%;
   font-size: 1.25rem; }
@@ -846,20 +886,6 @@ input[type="text"]::-webkit-input-placeholder {
 .title-styling {
   text-align: center;
   font-size: 4rem;
-  font-weight: bold;
-  color: #6991B7; }
-
-.title-teacher {
-  text-align: center;
-  padding-top: 11%;
-  font-size: 2.5rem;
-  font-weight: bold;
-  color: #6991B7;
-  padding-bottom: 3rem; }
-
-.title-founder {
-  text-align: left;
-  font-size: 2.5rem;
   font-weight: bold;
   color: #6991B7; }
 
@@ -877,12 +903,6 @@ input[type="text"]::-webkit-input-placeholder {
   font-weight: bold;
   color: #6991B7;
   padding-bottom: 3rem; }
-
-.title-teacher-name {
-  text-align: left;
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: #6991B7; }
 
 .padding-bot-med {
   padding-bottom: 2.5rem; }
@@ -1470,8 +1490,7 @@ object {
   color: #2E4E5E;
   position: absolute;
   top: 9rem;
-  right: 0;
-  padding-right: 2rem; }
+  right: 0; }
 
 .owl-next {
   float: right;
@@ -1586,6 +1605,39 @@ object {
   font-size: 1rem;
   border-radius: 4px; }
 
+.page-id-7 .title-founder {
+  text-align: left;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #6991B7;
+  line-height: 3rem; }
+
+.page-id-7 .padding-founder {
+  padding-left: .15rem;
+  padding-bottom: 1.5rem; }
+
+.page-id-7 .title-teacher {
+  text-align: center;
+  padding-top: 4%;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #6991B7;
+  padding-bottom: 2rem; }
+
+.page-id-7 .padding-right-teacher {
+  padding-right: 2.5rem; }
+
+.page-id-7 .padding-right-teacher-profile {
+  padding-right: 5rem; }
+
+.page-id-7 .title-teacher-name {
+  text-align: left;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #6991B7;
+  padding-top: 1rem;
+  line-height: 1.25rem; }
+
 .page-id-34 .hero {
   background-image: url("./images/spash_banner.png");
   width: auto;
@@ -1623,6 +1675,13 @@ object {
   font-size: 1rem;
   border-radius: 4px; }
 
+.page-id-34 .title-founder {
+  text-align: left;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #6991B7;
+  line-height: 3rem; }
+
 .intro-text {
   padding: 6% 0% 5% 0%;
   font-size: 1.25rem; }
@@ -1634,20 +1693,6 @@ object {
 .title-styling {
   text-align: center;
   font-size: 4rem;
-  font-weight: bold;
-  color: #6991B7; }
-
-.title-teacher {
-  text-align: center;
-  padding-top: 11%;
-  font-size: 2.5rem;
-  font-weight: bold;
-  color: #6991B7;
-  padding-bottom: 3rem; }
-
-.title-founder {
-  text-align: left;
-  font-size: 2.5rem;
   font-weight: bold;
   color: #6991B7; }
 
@@ -1665,12 +1710,6 @@ object {
   font-weight: bold;
   color: #6991B7;
   padding-bottom: 3rem; }
-
-.title-teacher-name {
-  text-align: left;
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: #6991B7; }
 
 .padding-bot-med {
   padding-bottom: 2.5rem; }
