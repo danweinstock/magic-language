@@ -66,9 +66,9 @@ echo '<script src="'.get_bloginfo("stylesheet_directory").'/build/js/owl.carouse
 		
 		<?php endif ?>
 		<?php if(! is_front_page()): ?>
-		<?php get_custom_title(get_the_ID());?>
+		<div class="title-styling"><?php get_custom_title(get_the_ID());?></div>
 	<?php endif ?>
-	
+
 
 	</div>
 	<div id="content" class="site-content row">

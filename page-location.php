@@ -12,7 +12,7 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main clear padding-bot-big" role="main">
 			<?php while ( have_posts() ) : the_post(); ?>
-			
+
 				<?php echo the_content(); ?>
                     <div class="">
 
@@ -33,12 +33,6 @@ get_header(); ?>
 
 
 		</main><!-- #main -->
-
-		<div class="sub-footer">
-			<?php while ( have_posts() ) : the_post(); ?>
-				<?php echo CFS()->get('sub_footer'); ?>
-			<?php endwhile; wp_reset_query();?>
-		</div>
 
 
 	</div><!-- #primary -->
