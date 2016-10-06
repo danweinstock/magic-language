@@ -1,6 +1,6 @@
 /* Styling for Programs page done by Ala */
 
-.page-id-4{
+.page-id-4, .page-id-8{
   .site-content {
     .program-header-image {
       background-image: url("./images/spash_banner.png");
@@ -22,9 +22,6 @@
       box-sizing: border-box;
       padding: 3rem;
 
-    }
-    .blue-icon-programs{
-      color: $color__blue-button;
     }
     .programs-page-register{
       background-color: #f5fbf7;
