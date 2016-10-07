@@ -759,7 +759,7 @@ input[type="text"]::-webkit-input-placeholder {
 .rounded-corners {
   border-radius: 10px; }
 
-.page-id-7 .hero {
+.page-id-7 .hero, .page-id-118 .hero {
   background-image: url("./images/spash_banner.png");
   width: auto;
   height: 400px;
@@ -771,14 +771,15 @@ input[type="text"]::-webkit-input-placeholder {
   -ms-flex-pack: center;
       justify-content: center; }
 
-.page-id-7 .teachers img {
-  border-radius: 5px; }
+.page-id-7 .teachers img, .page-id-118 .teachers img {
+  border-radius: 5px;
+  padding-left: 2rem; }
 
-.page-id-7 button {
+.page-id-7 button, .page-id-118 button {
   background: none;
   border-color: #FFF; }
 
-.page-id-7 .blue-button {
+.page-id-7 .blue-button, .page-id-118 .blue-button {
   color: #fff;
   background: #6992B8;
   width: 14rem;
@@ -788,7 +789,7 @@ input[type="text"]::-webkit-input-placeholder {
   font-size: 1.5rem;
   border-radius: 5px; }
 
-.page-id-7 .class-button {
+.page-id-7 .class-button, .page-id-118 .class-button {
   color: #fff;
   background: #E98E73;
   width: 10rem;
@@ -798,18 +799,18 @@ input[type="text"]::-webkit-input-placeholder {
   font-size: 1rem;
   border-radius: 4px; }
 
-.page-id-7 .title-founder {
+.page-id-7 .title-founder, .page-id-118 .title-founder {
   text-align: left;
   font-size: 2.5rem;
   font-weight: bold;
   color: #6991B7;
   line-height: 3rem; }
 
-.page-id-7 .padding-founder {
+.page-id-7 .padding-founder, .page-id-118 .padding-founder {
   padding-left: .15rem;
   padding-bottom: 1.5rem; }
 
-.page-id-7 .title-teacher {
+.page-id-7 .title-teacher, .page-id-118 .title-teacher {
   text-align: center;
   padding-top: 4%;
   font-size: 3rem;
@@ -817,13 +818,13 @@ input[type="text"]::-webkit-input-placeholder {
   color: #6991B7;
   padding-bottom: 2rem; }
 
-.page-id-7 .padding-right-teacher {
+.page-id-7 .padding-right-teacher, .page-id-118 .padding-right-teacher {
   padding-right: 2.5rem; }
 
-.page-id-7 .padding-right-teacher-profile {
+.page-id-7 .padding-right-teacher-profile, .page-id-118 .padding-right-teacher-profile {
   padding-right: 5rem; }
 
-.page-id-7 .title-teacher-name {
+.page-id-7 .title-teacher-name, .page-id-118 .title-teacher-name {
   text-align: left;
   font-size: 2rem;
   font-weight: bold;
@@ -831,7 +832,7 @@ input[type="text"]::-webkit-input-placeholder {
   padding-top: 1rem;
   line-height: 1.25rem; }
 
-.page-id-34 .hero {
+.page-id-34 .hero, .page-id-120 .hero {
   background-image: url("./images/spash_banner.png");
   width: auto;
   height: 400px;
@@ -844,11 +845,12 @@ input[type="text"]::-webkit-input-placeholder {
       justify-content: center; }
 
 .page-id-34,
-.page-id-34 button {
+.page-id-34 button, .page-id-120,
+.page-id-120 button {
   background: none;
   border-color: #FFF; }
 
-.page-id-34 .blue-button {
+.page-id-34 .blue-button, .page-id-120 .blue-button {
   color: #fff;
   background: #6992B8;
   width: 14rem;
@@ -858,7 +860,7 @@ input[type="text"]::-webkit-input-placeholder {
   font-size: 1.5rem;
   border-radius: 5px; }
 
-.page-id-34 .class-button {
+.page-id-34 .class-button, .page-id-120 .class-button {
   color: #fff;
   background: #E98E73;
   width: 10rem;
@@ -868,7 +870,7 @@ input[type="text"]::-webkit-input-placeholder {
   font-size: 1rem;
   border-radius: 4px; }
 
-.page-id-34 .title-founder {
+.page-id-34 .title-founder, .page-id-120 .title-founder {
   text-align: left;
   font-size: 2.5rem;
   font-weight: bold;
@@ -1566,7 +1568,7 @@ object {
 .rounded-corners {
   border-radius: 10px; }
 
-.page-id-7 .hero {
+.page-id-7 .hero, .page-id-118 .hero {
   background-image: url("./images/spash_banner.png");
   width: auto;
   height: 400px;
@@ -1578,14 +1580,15 @@ object {
   -ms-flex-pack: center;
       justify-content: center; }
 
-.page-id-7 .teachers img {
-  border-radius: 5px; }
+.page-id-7 .teachers img, .page-id-118 .teachers img {
+  border-radius: 5px;
+  padding-left: 2rem; }
 
-.page-id-7 button {
+.page-id-7 button, .page-id-118 button {
   background: none;
   border-color: #FFF; }
 
-.page-id-7 .blue-button {
+.page-id-7 .blue-button, .page-id-118 .blue-button {
   color: #fff;
   background: #6992B8;
   width: 14rem;
@@ -1595,7 +1598,7 @@ object {
   font-size: 1.5rem;
   border-radius: 5px; }
 
-.page-id-7 .class-button {
+.page-id-7 .class-button, .page-id-118 .class-button {
   color: #fff;
   background: #E98E73;
   width: 10rem;
@@ -1605,18 +1608,18 @@ object {
   font-size: 1rem;
   border-radius: 4px; }
 
-.page-id-7 .title-founder {
+.page-id-7 .title-founder, .page-id-118 .title-founder {
   text-align: left;
   font-size: 2.5rem;
   font-weight: bold;
   color: #6991B7;
   line-height: 3rem; }
 
-.page-id-7 .padding-founder {
+.page-id-7 .padding-founder, .page-id-118 .padding-founder {
   padding-left: .15rem;
   padding-bottom: 1.5rem; }
 
-.page-id-7 .title-teacher {
+.page-id-7 .title-teacher, .page-id-118 .title-teacher {
   text-align: center;
   padding-top: 4%;
   font-size: 3rem;
@@ -1624,13 +1627,13 @@ object {
   color: #6991B7;
   padding-bottom: 2rem; }
 
-.page-id-7 .padding-right-teacher {
+.page-id-7 .padding-right-teacher, .page-id-118 .padding-right-teacher {
   padding-right: 2.5rem; }
 
-.page-id-7 .padding-right-teacher-profile {
+.page-id-7 .padding-right-teacher-profile, .page-id-118 .padding-right-teacher-profile {
   padding-right: 5rem; }
 
-.page-id-7 .title-teacher-name {
+.page-id-7 .title-teacher-name, .page-id-118 .title-teacher-name {
   text-align: left;
   font-size: 2rem;
   font-weight: bold;
@@ -1638,7 +1641,7 @@ object {
   padding-top: 1rem;
   line-height: 1.25rem; }
 
-.page-id-34 .hero {
+.page-id-34 .hero, .page-id-120 .hero {
   background-image: url("./images/spash_banner.png");
   width: auto;
   height: 400px;
@@ -1651,11 +1654,12 @@ object {
       justify-content: center; }
 
 .page-id-34,
-.page-id-34 button {
+.page-id-34 button, .page-id-120,
+.page-id-120 button {
   background: none;
   border-color: #FFF; }
 
-.page-id-34 .blue-button {
+.page-id-34 .blue-button, .page-id-120 .blue-button {
   color: #fff;
   background: #6992B8;
   width: 14rem;
@@ -1665,7 +1669,7 @@ object {
   font-size: 1.5rem;
   border-radius: 5px; }
 
-.page-id-34 .class-button {
+.page-id-34 .class-button, .page-id-120 .class-button {
   color: #fff;
   background: #E98E73;
   width: 10rem;
@@ -1675,7 +1679,7 @@ object {
   font-size: 1rem;
   border-radius: 4px; }
 
-.page-id-34 .title-founder {
+.page-id-34 .title-founder, .page-id-120 .title-founder {
   text-align: left;
   font-size: 2.5rem;
   font-weight: bold;

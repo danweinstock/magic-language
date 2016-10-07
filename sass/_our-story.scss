@@ -33,7 +33,7 @@
 
 // Specific Page Styling
 
-.page-id-7{
+.page-id-7, .page-id-118{
     .hero {
         background-image: url("./images/spash_banner.png");
         width: auto;
@@ -46,6 +46,7 @@
     .teachers {
         img {
             border-radius: 5px;
+            padding-left: 2rem;
         }
     }
     button{
@@ -108,7 +109,7 @@
     }
 }
 
-.page-id-34{
+.page-id-34, .page-id-120{
     .hero {
         background-image: url("./images/spash_banner.png");
         width: auto;
