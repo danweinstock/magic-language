@@ -506,6 +506,7 @@ body {
 
 .align-center {
   -ms-flex-align: center;
+      -ms-grid-row-align: center;
       align-items: center; }
 
 .flex-grow-double {
@@ -551,6 +552,9 @@ body {
   background: #6992B8;
   border: none;
   border-radius: 5%; }
+
+.blue-border {
+  border: 1px solid #6992B8; }
 
 /*home page formatting*/
 .home .hero {
