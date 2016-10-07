@@ -9,13 +9,13 @@
 
 
 <div class="row">
-	<div class="large-3 large-centered">
+	<div class="large-3 large-centered login-padding">
 		<form action="#">
-		Username:<br><input type="text" id="username" class="">
+		User Name:<br><input type="text" id="username" class="">
 		Password:<br><input type="text" id="password">
-			<button type="button">Submit</button>
+			<button type="button" class="blue-button">Submit</button>
 		</form>
-		<a href="#" class="forget-link-padding">Forgot your username?</a><br>
-		<a href="#" class="forget-link-padding">Forgot your password?</a>
+		<a href="#">Forgot your username?</a><br>
+		<a href="#">Forgot your password?</a>
 	</div>
 </div>
