@@ -1,22 +1,6 @@
 <div class="program-title text-center blue-text"><h3>Our Methodology</h3></div>
 <div class="program-subtitle text-center blue-text">One class a week + 15 minutes a day at home</div>
 <div class="program-info-icons row padding-lrg">
-<<<<<<< HEAD
-	<div class="program-puzzle large-3 column text-center ">
-		<i class="fa fa-puzzle-piece fa-3x blue-icon-programs" aria-hidden="true"></i>
-		<p>Children learn through play without realizing it.</p>
-	</div>
-	<div class="program-music large-3 column text-center">
-		<i class="fa fa-music fa-3x blue-icon-programs" aria-hidden="true"></i>
-		<p>Songs help children practice new sounds</p>
-	</div>
-	<div class="program-globe large-3 column text-center">
-		<i class="fa fa-globe fa-3x blue-icon-programs" aria-hidden="true"></i>
-		<p>Introduction to cultural elements reinforce the learning</p>
-	</div>
-	<div class="program-book large-3 column text-center">
-		<i class="fa fa-book fa-3x blue-icon-programs" aria-hidden="true"></i>
-=======
 	<div class="program-puzzle large-3 column ">
 			<i class="fa fa-puzzle-piece fa-3x blue-text icon-center" aria-hidden="true"></i>
 			<p>Children learn through play without realizing it.</p>
@@ -31,7 +15,6 @@
 	</div>
 	<div class="program-book large-3 column">
 		<i class="fa fa-book fa-3x blue-text icon-center" aria-hidden="true"></i>
->>>>>>> ala
 		<p>Word order and grammar are taught through story</p>
 	</div>
 </div>
@@ -109,8 +92,4 @@
 		</div>
 	</li>
 </ul>
-</div>
-<div class="programs-page-register txt-center">
-	<h5 class="register-banner-padding">Start your child on the journey to a new language today.</h5>
-	<button class="orange-button ">Register</button>
 </div>
