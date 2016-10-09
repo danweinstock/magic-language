@@ -26,6 +26,19 @@
 		background-size: 100%;
 		background-repeat: no-repeat;
 	}
+	.sub-footer{
+		input[type="submit"]{
+			background: $color__blue-button;
+			height: 2.4375rem;
+			margin-left: -6rem;
+			color: $color__background-body;
+		}
+	}
+	a{
+		.home-link{
+			padding: 4% 8%;
+		}
+	}
 }
 .main-navigation{
 	margin-right: 4%;
@@ -74,7 +87,7 @@
 }
 .hero-text{
 	font-size: 2.5rem;
-	font-weight: bold;
+	font-family: Raleway-Bold;
 }
 .front-blog{
 	img{

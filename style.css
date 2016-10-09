@@ -220,6 +220,10 @@ th {
   font-family: Raleway;
   src: url(fonts/Raleway/Raleway-Regular.ttf); }
 
+@font-face {
+  font-family: Raleway-Bold;
+  src: url(fonts/Raleway/Raleway-Bold.ttf); }
+
 /*--------------------------------------------------------------
 # Global
 --------------------------------------------------------------*/
@@ -568,6 +572,15 @@ body {
   background-size: 100%;
   background-repeat: no-repeat; }
 
+.home .sub-footer input[type="submit"] {
+  background: #5F87A9;
+  height: 2.4375rem;
+  margin-left: -6rem;
+  color: #fff; }
+
+.home a .home-link {
+  padding: 4% 8%; }
+
 .main-navigation {
   margin-right: 4%; }
   .main-navigation .menu .menu-item a {
@@ -600,7 +613,7 @@ body {
 
 .hero-text {
   font-size: 2.5rem;
-  font-weight: bold; }
+  font-family: Raleway-Bold; }
 
 .front-blog img {
   border-radius: 5%; }
@@ -955,6 +968,9 @@ textarea {
 h1, h2, h3, h4, h5, h6 {
   clear: both; }
 
+h1 {
+  font-family: Raleway-Bold; }
+
 p {
   margin-bottom: 1.5em; }
 
@@ -1112,14 +1128,6 @@ textarea {
 --------------------------------------------------------------*/
 a {
   color: #5F87A9; }
-  a:visited {
-    color: purple; }
-  a:hover, a:focus, a:active {
-    color: midnightblue; }
-  a:focus {
-    outline: thin dotted; }
-  a:hover, a:active {
-    outline: 0; }
 
 /*--------------------------------------------------------------
 ## Menus
