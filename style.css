@@ -216,6 +216,10 @@ td,
 th {
   padding: 0; }
 
+@font-face {
+  font-family: Raleway;
+  src: url(fonts/Raleway/Raleway-Regular.ttf); }
+
 /*--------------------------------------------------------------
 # Global
 --------------------------------------------------------------*/
@@ -539,22 +543,22 @@ body {
 /*Custom Styling*/
 /*common classes to use*/
 .blue-text {
-  color: #6992B8; }
+  color: #5F87A9; }
 
 .orange-button {
   color: #fff;
-  background: #E98E73;
+  background: #DA9798;
   border: none;
   border-radius: 5%; }
 
 .blue-button {
   color: #fff;
-  background: #6992B8;
+  background: #5F87A9;
   border: none;
   border-radius: 5%; }
 
 .blue-border {
-  border: 1px solid #6992B8; }
+  border: 1px solid #5F87A9; }
 
 /*home page formatting*/
 .home .hero {
@@ -567,11 +571,11 @@ body {
 .main-navigation {
   margin-right: 4%; }
   .main-navigation .menu .menu-item a {
-    color: #6992B8; }
-  .main-navigation .menu .menu-item-55 {
-    background: #E98E73;
+    color: #5F87A9; }
+  .main-navigation .menu .menu-item-55, .main-navigation .menu .menu-item-148 {
+    background: #DA9798;
     border-radius: 5%; }
-    .main-navigation .menu .menu-item-55 a {
+    .main-navigation .menu .menu-item-55 a, .main-navigation .menu .menu-item-148 a {
       color: #fff; }
 
 .home-icons {
@@ -588,7 +592,7 @@ body {
   text-align: right; }
 
 .recent-blogs .post .home-read-more a {
-  color: #6992B8; }
+  color: #5F87A9; }
 
 .hero-cta {
   width: 16.5rem;
@@ -607,7 +611,7 @@ body {
 /*end of home page formatting*/
 /*Footer formatting*/
 .site-footer {
-  background-color: #6992B8; }
+  background-color: #5F87A9; }
 
 .footer-address {
   color: #fff; }
@@ -789,7 +793,7 @@ input[type="text"]::-webkit-input-placeholder {
 
 .page-id-7 .blue-button, .page-id-118 .blue-button {
   color: #fff;
-  background: #6992B8;
+  background: #5F87A9;
   width: 14rem;
   height: 3rem;
   border: none;
@@ -799,7 +803,7 @@ input[type="text"]::-webkit-input-placeholder {
 
 .page-id-7 .class-button, .page-id-118 .class-button {
   color: #fff;
-  background: #E98E73;
+  background: #DA9798;
   width: 10rem;
   height: 2rem;
   border: none;
@@ -860,7 +864,7 @@ input[type="text"]::-webkit-input-placeholder {
 
 .page-id-34 .blue-button, .page-id-120 .blue-button {
   color: #fff;
-  background: #6992B8;
+  background: #5F87A9;
   width: 14rem;
   height: 3rem;
   border: none;
@@ -870,7 +874,7 @@ input[type="text"]::-webkit-input-placeholder {
 
 .page-id-34 .class-button, .page-id-120 .class-button {
   color: #fff;
-  background: #E98E73;
+  background: #DA9798;
   width: 10rem;
   height: 2rem;
   border: none;
@@ -1107,7 +1111,7 @@ textarea {
 ## Links
 --------------------------------------------------------------*/
 a {
-  color: #6992B8; }
+  color: #5F87A9; }
   a:visited {
     color: purple; }
   a:hover, a:focus, a:active {
@@ -1594,7 +1598,7 @@ object {
 
 .page-id-7 .blue-button, .page-id-118 .blue-button {
   color: #fff;
-  background: #6992B8;
+  background: #5F87A9;
   width: 14rem;
   height: 3rem;
   border: none;
@@ -1604,7 +1608,7 @@ object {
 
 .page-id-7 .class-button, .page-id-118 .class-button {
   color: #fff;
-  background: #E98E73;
+  background: #DA9798;
   width: 10rem;
   height: 2rem;
   border: none;
@@ -1665,7 +1669,7 @@ object {
 
 .page-id-34 .blue-button, .page-id-120 .blue-button {
   color: #fff;
-  background: #6992B8;
+  background: #5F87A9;
   width: 14rem;
   height: 3rem;
   border: none;
@@ -1675,7 +1679,7 @@ object {
 
 .page-id-34 .class-button, .page-id-120 .class-button {
   color: #fff;
-  background: #E98E73;
+  background: #DA9798;
   width: 10rem;
   height: 2rem;
   border: none;
