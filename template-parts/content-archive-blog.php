@@ -7,10 +7,10 @@
  * @package magic_language
  */
 ?>
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+<article class="large-5 columns" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
 	<?php if ( has_post_thumbnail() ) : ?>
-			<?php the_post_thumbnail( 'large' ); ?>
+			<?php the_post_thumbnail( 'front-blog' ); ?>
 	<?php endif; ?>
 		<?php
 		if ( is_single() ) :
@@ -28,7 +28,7 @@
 
 	<div class="entry-content">
 		<?php
-			the_content( sprintf(
+			the_excerpt( sprintf(
 				/* translators: %s: Name of current post. */
 				wp_kses( __( 'Continue reading %s <span class="meta-nav">&rarr;</span>', 'magic_language' ), array( 'span' => array( 'class' => array() ) ) ),
 				the_title( '<span class="screen-reader-text">"', '"</span>', false )

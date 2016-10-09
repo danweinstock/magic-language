@@ -135,6 +135,11 @@ wp_enqueue_style( 'magic_language-style', get_stylesheet_uri() );
 }
 add_action( 'wp_enqueue_scripts', 'magic_language_scripts' );
 
+add_filter(‘excerpt_length’, ‘my_excerpt_length’);
+function my_excerpt_length($length) {
+return 50; // Or whatever you want the length to be.
+}
+
 /**
  * Implement the Custom Header feature.
  */

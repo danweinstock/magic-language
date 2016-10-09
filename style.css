@@ -578,9 +578,6 @@ body {
   margin-left: -6rem;
   color: #fff; }
 
-.home a .home-link {
-  padding: 4% 8%; }
-
 .main-navigation {
   margin-right: 4%; }
   .main-navigation .menu .menu-item a {
@@ -624,7 +621,7 @@ body {
 /*end of home page formatting*/
 /*Footer formatting*/
 .site-footer {
-  background-color: #5F87A9; }
+  background-color: #6992B8; }
 
 .footer-address {
   color: #fff; }

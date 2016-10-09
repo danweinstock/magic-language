@@ -34,11 +34,6 @@
 			color: $color__background-body;
 		}
 	}
-	a{
-		.home-link{
-			padding: 4% 8%;
-		}
-	}
 }
 .main-navigation{
 	margin-right: 4%;
@@ -101,7 +96,7 @@
 /*end of home page formatting*/
 /*Footer formatting*/
 .site-footer{
-	background-color: $color__blue-button;
+	background-color: $color__background-footer;
 }
 .footer-address{
 	color: $color__background-body;
