@@ -14,7 +14,7 @@
 
 get_header(); ?> 
 
-	<div id="primary" class="content-area">
+	<div id="primary" class="content-area large-7 columns">
 		<main id="main" class="site-main" role="main">
 		<?php
 		if ( have_posts() ) :

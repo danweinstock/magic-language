@@ -7,7 +7,7 @@
  * @package magic_language
  */
 ?>
-<article class="large-5 columns" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+<article class="large-6 columns" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
 	<?php if ( has_post_thumbnail() ) : ?>
 			<?php the_post_thumbnail( 'front-blog' ); ?>
@@ -26,7 +26,7 @@
 		endif; ?>
 	</header><!-- .entry-header -->
 
-	<div class="entry-content">
+	<div class="entry-excerpt">
 		<?php
 			the_excerpt( sprintf(
 				/* translators: %s: Name of current post. */

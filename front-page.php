@@ -27,7 +27,7 @@ get_header(); ?>
 
 	<div class="recent-blogs row">
 		<?php query_posts('showposts=3'); if (have_posts()) : while (have_posts()) : the_post(); ?>
-		<div class="large-4 columns">
+		<div class="large-4 medium-4 small-4 columns">
 	<?php get_template_part( 'template-parts/content','home-blogs' ); ?>
 			
 		</div>

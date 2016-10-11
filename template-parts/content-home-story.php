@@ -1,5 +1,5 @@
 <div class="row">
-<div class="large-6 medium-6 small-6 columns">
+<div class="large-5 large-offset-1 medium-5 medium-offset-1 small-5 small-offset-1 columns">
 <h1 class="blue-text">Our Story</h1>
 <div class="home-story-content">
 	In today's increasingly globalized world there is a growing need to learn and master foreign languages. At Magic Languages our courses are designed for babies and children because we know that language acquisition during the early years of life is integral to child's development. We are professionals in language education and offer classes in Spanish, French and Mandarin. 
@@ -14,7 +14,7 @@
 	
 	
 </div>
-<div class="home-bunny large-6 medium-6 small-6 columns">
+<div class="home-bunny large-6 columns">
 	<?php 
 		 			echo '<img src="'.get_bloginfo("stylesheet_directory").'/images/bunny/black_bunny.png">'."<br>";
 				?>
