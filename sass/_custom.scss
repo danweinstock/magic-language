@@ -169,7 +169,7 @@ input[type="text"]::-webkit-input-placeholder{
 
 .page-id-13, .page-id-64, .blog{
 	.hero{
-		background: url("./images/spash_banner.png");
+		background: url("./images/kid_contour_banner.jpg");
 		width: 100%;
 		height: 21rem;
 		position:relative;
@@ -243,7 +243,7 @@ input[type="text"]::-webkit-input-placeholder{
 .overlay-color{
 		position:absolute;
 		height: 100%;
-		width: 60%;
+		width: 15rem;
 		background-color: rgba(0, 0, 0, 0.5);
 		z-index: 1;
 		top: 0;
@@ -255,5 +255,16 @@ input[type="text"]::-webkit-input-placeholder{
 .program-info-icons {
 	i{
 		padding-bottom: 8%;
+	}
+}
+.page-id-64, .page-id-13 {
+	input[type="button"]{
+		background: $color__blue-button;
+		color: $color__background-body;
+	}
+}
+.blog{
+	article{
+		min-height: 700px;
 	}
 }

@@ -7,3 +7,9 @@ jQuery( document ).ready(function($) {
 		$('.additional-student').show();
 	})
 });
+function chooseHome(){
+	jQuery("input:button[name=atHome]").css('background','red');
+}
+function chooseGroup(){
+	jQuery("input:button[name=atGroup]").css('background','red');
+}

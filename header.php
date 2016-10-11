@@ -71,4 +71,4 @@ echo '<script src="'.get_bloginfo("stylesheet_directory").'/build/js/owl.carouse
 	<?php if(! is_home()):?>
 	<div id="content" class="site-content row">
 <?php endif ?>
-	<div id="content" class="site-content row flex">
+	<div id="content" class="site-content row">
