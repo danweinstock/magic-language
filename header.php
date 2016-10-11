@@ -68,7 +68,4 @@ echo '<script src="'.get_bloginfo("stylesheet_directory").'/build/js/owl.carouse
 		<div class="title-styling"><?php get_custom_title(get_the_ID());?></div>
 	<?php endif ?>
 	</div>
-	<?php if(! is_home()):?>
-	<div id="content" class="site-content row">
-<?php endif ?>
 	<div id="content" class="site-content row">

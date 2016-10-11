@@ -1793,3 +1793,12 @@ object {
 .page-id-6 .site-content .login-padding {
   padding-top: 3rem;
   padding-bottom: 3rem; }
+
+/* Styling for school page done by Ala */
+.page-id-16 .site-content .school-div {
+  width: 100%;
+  padding-left: 9rem;
+  padding-right: 9rem; }
+
+.page-id-16 .site-content .bunny-school {
+  padding-top: 4rem; }
