@@ -514,7 +514,6 @@ body {
 
 .align-center {
   -ms-flex-align: center;
-      -ms-grid-row-align: center;
       align-items: center; }
 
 .flex-grow-double {
@@ -1792,7 +1791,7 @@ object {
 .page-id-16 .site-content .school-div {
   width: 100%;
   padding-left: 6rem;
-  paddint-right: 6rem; }
+  padding-right: 9rem; }
 
 .page-id-16 .site-content .bunny-school {
   padding-top: 4rem; }
