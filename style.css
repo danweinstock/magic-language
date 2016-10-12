@@ -1814,3 +1814,37 @@ object {
   .single .widget_recent_entries ul li a {
     text-decoration: none;
     color: black; }
+
+#searchform {
+  position: relative; }
+  #searchform input[type=submit] {
+    background: url("./images/search.png");
+    background-repeat: no-repeat;
+    border: 0;
+    position: absolute;
+    right: 0;
+    top: 3px; }
+  #searchform button,
+  #searchform input[type="button"],
+  #searchform input[type="text"],
+  #searchform input[type="reset"] {
+    box-shadow: none;
+    outline: none;
+    border: none;
+    width: 100%;
+    border-bottom: 1px solid;
+    border-radius: 0; }
+    #searchform button:active, #searchform button:focus,
+    #searchform input[type="button"]:active,
+    #searchform input[type="button"]:focus,
+    #searchform input[type="text"]:active,
+    #searchform input[type="text"]:focus,
+    #searchform input[type="reset"]:active,
+    #searchform input[type="reset"]:focus {
+      outline: none; }
+    #searchform button input[type="text"],
+    #searchform input[type="button"] input[type="text"],
+    #searchform input[type="text"] input[type="text"],
+    #searchform input[type="reset"] input[type="text"] {
+      display: none;
+      padding-top: 10rem; }

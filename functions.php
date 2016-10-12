@@ -106,6 +106,15 @@ function magic_language_widgets_init() {
 		'before_title'  => '<div class="blue-text sidebar2-title">',
 		'after_title'   => '</div>',
 	) );
+	register_sidebar( array(
+		'name'          => esc_html__( 'Sidebar-3', 'magic_language' ),
+		'id'            => 'sidebar-3',
+		'description'   => esc_html__( 'Add widgets here.', 'magic_language' ),
+		'before_widget' => '<section id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</section>',
+		'before_title'  => '<div class="blue-text sidebar3-title">',
+		'after_title'   => '</div>',
+	) );
 }
 add_action( 'widgets_init', 'magic_language_widgets_init' );
 
@@ -135,11 +144,11 @@ wp_enqueue_style( 'magic_language-style', get_stylesheet_uri() );
 }
 add_action( 'wp_enqueue_scripts', 'magic_language_scripts' );
 
-add_filter(‘excerpt_length’, ‘my_excerpt_length’);
-function my_excerpt_length($length) {
-return 50; // Or whatever you want the length to be.
-}
 
+function my_excerpt_length($length) {
+return 20; // Or whatever you want the length to be.
+}
+add_filter("excerpt_length","my_excerpt_length");
 /**
  * Implement the Custom Header feature.
  */

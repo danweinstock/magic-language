@@ -7,11 +7,8 @@
  * @package magic_language
  */
 ?>
-<article class="large-12 columns" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+<article class="large-4 columns" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
-	<?php if ( has_post_thumbnail() ) : ?>
-			<?php the_post_thumbnail( 'front-blog' ); ?>
-	<?php endif; ?>
 		<?php
 		if ( is_single() ) :
 			the_title( '<h1 class="entry-title">', '</h1>' );
@@ -19,11 +16,15 @@
 			the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
 		endif;
 		if ( 'post' === get_post_type() ) : ?>
-		<div class="entry-meta">
-			<?php magic_language_posted_on(); ?>
-		</div><!-- .entry-meta -->
-		<?php
+			<div class="entry-meta">
+				<?php magic_language_posted_on(); ?> <?php echo "<br>"."Posted by ".get_the_author(); ?>
+			</div><!-- .entry-meta -->
+			<?php
 		endif; ?>
+	<?php if ( has_post_thumbnail() ) : ?>
+			<?php the_post_thumbnail( 'front-blog' ); ?>
+	<?php endif; ?>
+
 	</header><!-- .entry-header -->
 
 	<div class="entry-excerpt">

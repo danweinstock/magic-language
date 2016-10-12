@@ -81,3 +81,38 @@
     }
   }
 }
+
+#searchform {
+  position: relative;
+
+  input[type=submit] {
+    background:url("./images/search.png");
+    background-repeat: no-repeat;
+    border:0;
+
+    position: absolute;
+    right: 0;
+    top: 3px;
+  }
+  button,
+  input[type="button"],
+  input[type="text"],
+  input[type="reset"]
+  {
+    box-shadow: none;
+    outline: none;
+    border: none;
+    width: 100%;
+    border-bottom: 1px solid;
+    border-radius: 0;
+    &:active,
+    &:focus {
+      outline: none;
+    }
+    input[type="text"]{
+      display: none;
+      padding-top: 10rem;
+    }
+  }
+}
+
