@@ -18,6 +18,7 @@ get_header(); ?>
 					the_archive_description( '<div class="archive-description">', '</div>' );
 				?>
 			</header><!-- .page-header -->
+			<div class="archive-blog-div">
 			<?php
 			/* Start the Loop */
 			while ( have_posts() ) : the_post();
@@ -32,6 +33,7 @@ get_header(); ?>
 		else :
 			get_template_part( 'template-parts/content', 'none' );
 		endif; ?>
+			</div>
 			<div class="large-4 column">
 				<form role="search" class="resource-form" action="<?php echo site_url('/'); ?>" method="get" id="searchform">
 					<input type="text" name="s" placeholder="Search "/>

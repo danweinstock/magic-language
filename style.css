@@ -1848,3 +1848,6 @@ object {
     #searchform input[type="reset"] input[type="text"] {
       display: none;
       padding-top: 10rem; }
+
+.archive-blog-div {
+  width: 60%; }
