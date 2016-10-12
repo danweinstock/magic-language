@@ -395,6 +395,12 @@ body {
 .padding-lrg {
   padding: 1rem; }
 
+.padding-left-1 {
+  padding-left: 1rem; }
+
+.padding-left-2 {
+  padding-left: 2rem; }
+
 .margin-none {
   margin: 0; }
 
@@ -1802,3 +1808,9 @@ object {
 
 .page-id-16 .site-content .bunny-school {
   padding-top: 4rem; }
+
+.single .widget_recent_entries ul {
+  list-style-type: none; }
+  .single .widget_recent_entries ul li a {
+    text-decoration: none;
+    color: black; }

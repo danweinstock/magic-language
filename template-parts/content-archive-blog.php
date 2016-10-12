@@ -7,7 +7,7 @@
  * @package magic_language
  */
 ?>
-<article class="large-6 columns" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+<article class="large-12 columns" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
 	<?php if ( has_post_thumbnail() ) : ?>
 			<?php the_post_thumbnail( 'front-blog' ); ?>

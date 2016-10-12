@@ -55,6 +55,8 @@ echo '<script src="'.get_bloginfo("stylesheet_directory").'/build/js/owl.carouse
 			<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
 		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->
+	<?php if (!is_single() ){
+		?>
 	<div class="hero">
 		<?php if ( is_front_page() ) : ?>
 			
@@ -68,4 +70,6 @@ echo '<script src="'.get_bloginfo("stylesheet_directory").'/build/js/owl.carouse
 		<div class="title-styling"><?php get_custom_title(get_the_ID());?></div>
 	<?php endif ?>
 	</div>
+
+	<?php } ?>
 	<div id="content" class="site-content row">

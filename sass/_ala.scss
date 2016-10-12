@@ -67,3 +67,17 @@
     }
   }
 }
+
+.single{
+  .widget_recent_entries{
+    ul{
+      list-style-type: none;
+      li{
+        a{
+          text-decoration: none;
+          color: black;
+        }
+      }
+    }
+  }
+}
