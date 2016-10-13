@@ -1266,8 +1266,8 @@ a {
   text-decoration: none;
   line-height: inherit;
   cursor: pointer; }
-  a:hover, a:focus {
-    color: #1585cf; }
+/*  a:hover, a:focus {
+    color: #1585cf; }*/
   a img {
     border: 0; }
 

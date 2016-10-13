@@ -1,4 +1,11 @@
 <?php
+/**
+ * Template Name: Register-at-home
+ *
+ * @package WordPress
+ * @subpackage Twenty_Fourteen
+ * @since Twenty Fourteen 1.0
+ */
 get_header();
 ?>
 <div class="register-body">
@@ -44,8 +51,8 @@ get_header();
 			<li>
 				Pick Your Class Type:<br>
 				
-			<button class="location-type-button	blue-button" type="button"><a href="/hope/register-home/">A.In Home</a></button>
-			<button class="location-type-button blue-button" type="button"><a href="/hope/register-group/">B. Group Location</a></button>
+			<input type="button" value="At Home" name="atHome" onclick="chooseHome()">
+			<input type="button" value="As a Group" name="atGroup" onclick="chooseGroup()">		
 				<!--TODO custom buttons go here -->
 			</li>
 		
@@ -150,9 +157,8 @@ get_header();
 				</li>
 				<li>
 					Pick Your Class Type:<br>
-					
-				<button class="location-type-button	blue-button" type="button"><a href="http://localhost:8888/hope/register-home/">A.In Home</a></button>
-				<button class="location-type-button blue-button" type="button"><a href="http://localhost:8888/hope/register-group/">B. Group Location</a></button>
+				<input type="button" value="At Home">
+				<input type="button" value="As a Group">			
 					<!--TODO custom buttons go here -->
 				</li>
 				<li><!-- TODO set this point to display none by default -->
@@ -193,7 +199,7 @@ get_header();
 				Terms and Conditions<br>
 				<div class="tos border-sm padding-lrg">
 					<div class="tos-title">Magic Languages Terms &amp; Conditions:</div>
-					<div class="tody-body">
+					<div class="tos-body">
 						Last Updated on 2016-09-09 <br>
 						GENERAL POLICIES Please read the following and sign at the end to certify that you understand and agree with Magic-Languages policies.<br>
 						REGISTRATION The registration is done on a first come first served basis for any session. We highly recommend early registration due to the limited number of spots available for eachsession. Each class consist of a maximum of 4 students for the first level (1-3 years old) and a maximum of 6 students for the second, third and fourth level (4 years and more). Magic-Languages charge a one-time registration &amp; evaluation fee of $35 upon registration. The fee is non-refundable.<br>

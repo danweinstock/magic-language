@@ -55,17 +55,22 @@ echo '<script src="'.get_bloginfo("stylesheet_directory").'/build/js/owl.carouse
 			<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
 		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->
-	<div class="hero">
-		<?php if ( is_front_page() ) { ?>
 
+		<div class="hero">
+			<?php if ( is_front_page() ) { ?>
 				<div class="hero-statement txt-center large-6 columns right blue-text"><div class="hero-text"> The natural way to <br> learn language</div>
-				<button class="hero-cta orange-button">Register Today</button>
+					<button class="hero-cta orange-button">Register Today</button>
 				</div>
-	<?php } else if(is_archive()) { ?>
-		<div class="title-styling">Search Results</div>
-	<?php
-	} else { ?>
-		<div class="title-styling"><?php get_custom_title(get_the_ID());?></div>
-	<?php } ?>
-	</div>
+
+			<?php } else if(is_archive() && !is_category()) { ?>
+				<div class="title-styling">Search Results</div>
+				<?php
+			}else if(is_category() || is_search()) { ?>
+				<div class="title-styling">Blog</div>
+				<?php
+			}
+			else { ?>
+				<div class="title-styling"><?php get_custom_title(get_the_ID());?></div>
+			<?php } ?>
+		</div>
 	<div id="content" class="site-content row">

@@ -50,3 +50,110 @@
     }
   }
 }
+
+/* Styling for school page done by Ala */
+.page-id-16{
+  .site-content {
+    .school-div {
+      width: 100%;
+      padding-left: 9rem;
+      padding-right: 9rem;
+    }
+    .bunny-school {
+      padding-top: 4rem;
+    }
+  }
+}
+
+.single{
+  .widget_recent_entries{
+    ul{
+      list-style-type: none;
+      li{
+        a{
+          text-decoration: none;
+          color: black;
+        }
+      }
+    }
+  }
+}
+
+#searchform {
+  position: relative;
+
+  input[type=submit] {
+    background:url("./images/search.png");
+    background-repeat: no-repeat;
+    border:0;
+
+    position: absolute;
+    right: 0;
+    top: 3px;
+  }
+  button,
+  input[type="button"],
+  input[type="text"],
+  input[type="reset"]
+  {
+    box-shadow: none;
+    outline: none;
+    border: none;
+    width: 100%;
+    border-bottom: 1px solid;
+    border-radius: 0;
+    &:active,
+    &:focus {
+      outline: none;
+    }
+    input[type="text"]{
+      display: none;
+      padding-top: 10rem;
+    }
+  }
+}
+
+.blog-spacing{
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+.home-sidebar-padding{
+  padding-top: 3rem;
+}
+
+.search-spacing{
+  padding-bottom: 3rem;
+}
+
+.search-exerpt-summary{
+  padding-top: 4.7rem;
+}
+
+.image-border-search{
+  img{
+    border-radius: 1%;
+  }
+}
+
+.Annual_Archive_Widget{
+  div{
+    border-bottom: 1px solid black;
+  }
+  li{
+    list-style-type: none;
+  }
+}
+
+.DisplayCategoriesWidget{
+  div{
+    border-bottom: 1px solid black;
+  }
+  li{
+    list-style-type:none;
+  }
+}
+
+div[id^="theme-my-login"]{
+  margin:auto;
+}

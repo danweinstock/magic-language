@@ -8,6 +8,7 @@
  */
 
 get_header(); ?>
+<h1> This hits Single .php</h1>
 <div class="row">
 		<div id="primary" class="content-area large-7 column">
 			<main id="main" class="site-main" role="main">
@@ -30,8 +31,9 @@ get_header(); ?>
 			</main><!-- #main -->
 		</div><!-- #primary -->
 		<div class="large-4 column">
-	<?php
-	dynamic_sidebar( 'sidebar-2'); ?>
+
+			<?php
+			dynamic_sidebar( 'sidebar-2'); ?>
 			
 		</div>
 	

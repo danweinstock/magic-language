@@ -1,15 +1,16 @@
 <div class="row">
-<div class="large-6 columns">
+<div class="large-5 large-offset-1 medium-5 medium-offset-1 small-5 small-offset-1 columns">
 <h1 class="blue-text">Our Story</h1>
 <div class="home-story-content">
-	In today's increasingly globablized world therer is a growing need to learn and master foreign languages. At Magic Languaages our courses are designed for babies and children becasue we know that language acquisition during the early years of life is integral to child's development. We are professionals in language education and offer classes in Spanish, French and Mandarin. 
+	In today's increasingly globalized world there is a growing need to learn and master foreign languages. At Magic Languages our courses are designed for babies and children because we know that language acquisition during the early years of life is integral to child's development. We are professionals in language education and offer classes in Spanish, French and Mandarin. 
 </div>
-<button class="blue-button home-button">Our Story</button>
+<a href="/hope/about"><button class="blue-button home-button">Our Story</button></a>
 <h1 class="blue-text">Programs</h1>
 <div class="home-program-content">
 	Our programs are based on a simple formula that is specifically designed for children. In a dynamic environment that fosters learning children feel comfortable and engaged in the activities. Our team is passionate and dynamic and ensures a magical atmosphere where children can learn and are eager to come back
 </div>
-<button class="blue-button home-button">Progams</button>
+
+<a href="/hope/programs"><button class="blue-button home-button">Progams</button></a>
 	
 	
 </div>

@@ -14,6 +14,9 @@
 	border:none;
 	border-radius: 5%;
 }
+.blue-border{
+	border: 1px solid $color__blue-button;
+}
 /*home page formatting*/
 .home{
 	.hero{
@@ -22,6 +25,14 @@
 		height: 501px;
 		background-size: 100%;
 		background-repeat: no-repeat;
+	}
+	.sub-footer{
+		input[type="submit"]{
+			background: $color__blue-button;
+			height: 2.4375rem;
+			margin-left: -6rem;
+			color: $color__background-body;
+		}
 	}
 }
 .main-navigation{
@@ -33,7 +44,7 @@
 			}
 		}
 
-		.menu-item-55{
+		.menu-item-55, .menu-item-148{
 			background: $color__orange-button;
 			border-radius: 5%;
 			a{
@@ -71,7 +82,7 @@
 }
 .hero-text{
 	font-size: 2.5rem;
-	font-weight: bold;
+	font-family: Raleway-Bold;
 }
 .front-blog{
 	img{
@@ -85,7 +96,7 @@
 /*end of home page formatting*/
 /*Footer formatting*/
 .site-footer{
-	background-color: $color__blue-button;
+	background-color: $color__background-footer;
 }
 .footer-address{
 	color: $color__background-body;
@@ -158,7 +169,7 @@ input[type="text"]::-webkit-input-placeholder{
 
 .page-id-13, .page-id-64, .blog{
 	.hero{
-		background: url("./images/spash_banner.png");
+		background: url("./images/kid_contour_banner.jpg");
 		width: 100%;
 		height: 21rem;
 		position:relative;
@@ -232,7 +243,7 @@ input[type="text"]::-webkit-input-placeholder{
 .overlay-color{
 		position:absolute;
 		height: 100%;
-		width: 60%;
+		width: 15rem;
 		background-color: rgba(0, 0, 0, 0.5);
 		z-index: 1;
 		top: 0;
@@ -244,5 +255,11 @@ input[type="text"]::-webkit-input-placeholder{
 .program-info-icons {
 	i{
 		padding-bottom: 8%;
+	}
+}
+.page-id-64, .page-id-13 {
+	input[type="button"]{
+		background: $color__blue-button;
+		color: $color__background-body;
 	}
 }

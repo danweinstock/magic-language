@@ -7,8 +7,6 @@ jQuery( document ).ready(function($) {
 		$('.additional-student').show();
 	})
 
-
-
   jQuery(".location-button").on('click', function(event) {
       event.preventDefault();
       $('html, body').animate({
@@ -16,4 +14,4 @@ jQuery( document ).ready(function($) {
       }, 800);
 
   });
-  });
+});
