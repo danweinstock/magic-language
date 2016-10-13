@@ -1856,6 +1856,12 @@ object {
 .search-spacing {
   padding-bottom: 3rem; }
 
+.search-exerpt-summary {
+  padding-top: 4.7rem; }
+
+.image-border-search {
+  border-radius: 20%; }
+
 .Annual_Archive_Widget div {
   border-bottom: 1px solid black; }
 
