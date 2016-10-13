@@ -51,9 +51,18 @@ get_header(); ?>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
-<div class="large-4 columns">
-<?php
-dynamic_sidebar( 'sidebar-1' );	?>
-</div>
+	<div class="large-4 column home-sidebar-padding ">
+		<div class="search-spacing">
+			<form role="search" class="resource-form" action="<?php echo site_url('/'); ?>" method="get" id="searchform">
+				<input type="text" name="s" placeholder="Search "/>
+				<input type="hidden" name="post_type" value="resources" /> <!-- // hidden 'products' value -->
+				<input type="submit" alt="Search" value="" />
+			</form>
+		</div>
+		<div>
+			<?php
+			dynamic_sidebar( 'sidebar-3'); ?>
+		</div>
+	</div>
 <?php
 get_footer();

@@ -764,9 +764,6 @@ input[type="text"]::-webkit-input-placeholder {
   background: #5F87A9;
   color: #fff; }
 
-.blog article {
-  min-height: 700px; }
-
 /*--------------------------------------------------------------
 # Our Story Page Styling
 --------------------------------------------------------------*/
@@ -1849,5 +1846,24 @@ object {
       display: none;
       padding-top: 10rem; }
 
-.archive-blog-div {
-  width: 60%; }
+.blog-spacing {
+  padding-top: 2rem;
+  padding-bottom: 1rem; }
+
+.home-sidebar-padding {
+  padding-top: 3rem; }
+
+.search-spacing {
+  padding-bottom: 3rem; }
+
+.Annual_Archive_Widget div {
+  border-bottom: 1px solid black; }
+
+.Annual_Archive_Widget li {
+  list-style-type: none; }
+
+.DisplayCategoriesWidget div {
+  border-bottom: 1px solid black; }
+
+.DisplayCategoriesWidget li {
+  list-style-type: none; }

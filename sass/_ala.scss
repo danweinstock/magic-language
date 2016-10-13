@@ -116,6 +116,33 @@
   }
 }
 
-.archive-blog-div{
-  width: 60%;
+.blog-spacing{
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+.home-sidebar-padding{
+  padding-top: 3rem;
+}
+
+.search-spacing{
+  padding-bottom: 3rem;
+}
+
+.Annual_Archive_Widget{
+  div{
+    border-bottom: 1px solid black;
+  }
+  li{
+    list-style-type: none;
+  }
+}
+
+.DisplayCategoriesWidget{
+  div{
+    border-bottom: 1px solid black;
+  }
+  li{
+    list-style-type:none;
+  }
 }
