@@ -1859,8 +1859,8 @@ object {
 .search-exerpt-summary {
   padding-top: 4.7rem; }
 
-.image-border-search {
-  border-radius: 20%; }
+.image-border-search img {
+  border-radius: 1%; }
 
 .Annual_Archive_Widget div {
   border-bottom: 1px solid black; }
@@ -1873,3 +1873,6 @@ object {
 
 .DisplayCategoriesWidget li {
   list-style-type: none; }
+
+div[id^="theme-my-login"] {
+  margin: auto; }

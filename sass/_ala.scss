@@ -62,9 +62,6 @@
     .bunny-school {
       padding-top: 4rem;
     }
-    .message-box{
-
-    }
   }
 }
 
@@ -134,7 +131,9 @@
 }
 
 .image-border-search{
-  border-radius: 20%;
+  img{
+    border-radius: 1%;
+  }
 }
 
 .Annual_Archive_Widget{
@@ -153,4 +152,8 @@
   li{
     list-style-type:none;
   }
+}
+
+div[id^="theme-my-login"]{
+  margin:auto;
 }

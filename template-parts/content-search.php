@@ -20,7 +20,8 @@
 				<?php magic_language_posted_on(); ?>
 			</div>
 
-			<div class="image-border-search"> <?php the_post_thumbnail( 'front-blog' ); ?>
+			<div class="image-border-search">
+				<?php the_post_thumbnail( 'front-blog' ); ?>
 			</div>
 		</div>
 
