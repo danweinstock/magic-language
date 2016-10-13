@@ -506,6 +506,7 @@ body {
 
 .align-center {
   -ms-flex-align: center;
+      -ms-grid-row-align: center;
       align-items: center; }
 
 .flex-grow-double {
@@ -763,7 +764,97 @@ input[type="text"]::-webkit-input-placeholder {
 .rounded-corners {
   border-radius: 10px; }
 
-.page-id-7 .hero {
+.resources-border {
+  border-style: solid;
+  border-width: 1px;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  padding-left: 4rem;
+  padding-right: 4rem; }
+
+.resources-padding {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem; }
+
+.no-padding-left {
+  padding-left: 0rem; }
+
+.padding-1 {
+  padding-top: 2rem;
+  padding-bottom: 2rem; }
+
+.padding-2 {
+  padding-top: 10rem;
+  padding-bottom: 2rem; }
+
+.name-title {
+  padding-top: 4%;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #6991B7;
+  padding-bottom: 0rem;
+  margin-bottom: 0rem; }
+
+.date-title {
+  font-size: 1.30rem;
+  color: #b4b1b1;
+  padding-bottom: .5rem; }
+
+.resource-title {
+  padding-top: 2rem;
+  font-size: 2rem;
+  color: #6991B7;
+  padding-bottom: 0rem;
+  margin-bottom: 0rem; }
+
+.dark-souls {
+  font-size: 1.20rem; }
+
+.logout_button {
+  font-size: 2rem; }
+
+.location_box_title {
+  bottom: 2.8rem;
+  left: 6.7rem;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: bold; }
+
+#searchform {
+  position: relative; }
+  #searchform input[type=submit] {
+    background: url("./images/search.png");
+    background-repeat: no-repeat;
+    border: 0;
+    position: absolute;
+    right: 0;
+    top: 3px; }
+  #searchform button,
+  #searchform input[type="button"],
+  #searchform input[type="text"],
+  #searchform input[type="reset"] {
+    box-shadow: none;
+    outline: none;
+    border: none;
+    width: 100%;
+    border-bottom: 1px solid;
+    border-radius: 0px; }
+    #searchform button:active, #searchform button:focus,
+    #searchform input[type="button"]:active,
+    #searchform input[type="button"]:focus,
+    #searchform input[type="text"]:active,
+    #searchform input[type="text"]:focus,
+    #searchform input[type="reset"]:active,
+    #searchform input[type="reset"]:focus {
+      outline: none; }
+    #searchform button input[type="text"],
+    #searchform input[type="button"] input[type="text"],
+    #searchform input[type="text"] input[type="text"],
+    #searchform input[type="reset"] input[type="text"] {
+      display: none;
+      padding-top: 10rem; }
+
+.page-id-7 .hero, .page-id-118 .hero {
   background-image: url("./images/spash_banner.png");
   width: auto;
   height: 400px;
@@ -775,14 +866,15 @@ input[type="text"]::-webkit-input-placeholder {
   -ms-flex-pack: center;
       justify-content: center; }
 
-.page-id-7 .teachers img {
-  border-radius: 5px; }
+.page-id-7 .teachers img, .page-id-118 .teachers img {
+  border-radius: 5px;
+  padding-left: 2rem; }
 
-.page-id-7 button {
+.page-id-7 button, .page-id-118 button {
   background: none;
   border-color: #FFF; }
 
-.page-id-7 .blue-button {
+.page-id-7 .blue-button, .page-id-118 .blue-button {
   color: #fff;
   background: #6992B8;
   width: 14rem;
@@ -792,7 +884,7 @@ input[type="text"]::-webkit-input-placeholder {
   font-size: 1.5rem;
   border-radius: 5px; }
 
-.page-id-7 .class-button {
+.page-id-7 .class-button, .page-id-118 .class-button {
   color: #fff;
   background: #E98E73;
   width: 10rem;
@@ -802,18 +894,18 @@ input[type="text"]::-webkit-input-placeholder {
   font-size: 1rem;
   border-radius: 4px; }
 
-.page-id-7 .title-founder {
+.page-id-7 .title-founder, .page-id-118 .title-founder {
   text-align: left;
   font-size: 2.5rem;
   font-weight: bold;
   color: #6991B7;
   line-height: 3rem; }
 
-.page-id-7 .padding-founder {
+.page-id-7 .padding-founder, .page-id-118 .padding-founder {
   padding-left: .15rem;
   padding-bottom: 1.5rem; }
 
-.page-id-7 .title-teacher {
+.page-id-7 .title-teacher, .page-id-118 .title-teacher {
   text-align: center;
   padding-top: 4%;
   font-size: 3rem;
@@ -821,13 +913,13 @@ input[type="text"]::-webkit-input-placeholder {
   color: #6991B7;
   padding-bottom: 2rem; }
 
-.page-id-7 .padding-right-teacher {
+.page-id-7 .padding-right-teacher, .page-id-118 .padding-right-teacher {
   padding-right: 2.5rem; }
 
-.page-id-7 .padding-right-teacher-profile {
+.page-id-7 .padding-right-teacher-profile, .page-id-118 .padding-right-teacher-profile {
   padding-right: 5rem; }
 
-.page-id-7 .title-teacher-name {
+.page-id-7 .title-teacher-name, .page-id-118 .title-teacher-name {
   text-align: left;
   font-size: 2rem;
   font-weight: bold;
@@ -835,7 +927,7 @@ input[type="text"]::-webkit-input-placeholder {
   padding-top: 1rem;
   line-height: 1.25rem; }
 
-.page-id-34 .hero {
+.page-id-34 .hero, .page-id-120 .hero {
   background-image: url("./images/spash_banner.png");
   width: auto;
   height: 400px;
@@ -848,11 +940,12 @@ input[type="text"]::-webkit-input-placeholder {
       justify-content: center; }
 
 .page-id-34,
-.page-id-34 button {
+.page-id-34 button, .page-id-120,
+.page-id-120 button {
   background: none;
   border-color: #FFF; }
 
-.page-id-34 .blue-button {
+.page-id-34 .blue-button, .page-id-120 .blue-button {
   color: #fff;
   background: #6992B8;
   width: 14rem;
@@ -862,7 +955,7 @@ input[type="text"]::-webkit-input-placeholder {
   font-size: 1.5rem;
   border-radius: 5px; }
 
-.page-id-34 .class-button {
+.page-id-34 .class-button, .page-id-120 .class-button {
   color: #fff;
   background: #E98E73;
   width: 10rem;
@@ -872,7 +965,7 @@ input[type="text"]::-webkit-input-placeholder {
   font-size: 1rem;
   border-radius: 4px; }
 
-.page-id-34 .title-founder {
+.page-id-34 .title-founder, .page-id-120 .title-founder {
   text-align: left;
   font-size: 2.5rem;
   font-weight: bold;
@@ -936,6 +1029,35 @@ input[type="text"]::-webkit-input-placeholder {
 
 .pad-left {
   padding-left: 4rem; }
+
+@media only screen and (min-width: 1px) and (max-width: 700px) {
+  .row {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem; }
+  .page-id-127 .row,
+  .page-id-7 .row,
+  .page-id-34 .row {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem; }
+  .name-title-mobile {
+    padding-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #6991B7;
+    padding-bottom: 0rem;
+    margin-bottom: 0rem; }
+  .logout_button-mobile {
+    font-size: 1.35rem; }
+  .padding-2-mobile {
+    padding-top: 5.2rem;
+    padding-bottom: 2rem; }
+  .resources-border-mobile {
+    border-style: solid;
+    border-width: 1px;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem; } }
 
 /*--------------------------------------------------------------
 # Typography
@@ -1575,7 +1697,97 @@ object {
 .rounded-corners {
   border-radius: 10px; }
 
-.page-id-7 .hero {
+.resources-border {
+  border-style: solid;
+  border-width: 1px;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  padding-left: 4rem;
+  padding-right: 4rem; }
+
+.resources-padding {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem; }
+
+.no-padding-left {
+  padding-left: 0rem; }
+
+.padding-1 {
+  padding-top: 2rem;
+  padding-bottom: 2rem; }
+
+.padding-2 {
+  padding-top: 10rem;
+  padding-bottom: 2rem; }
+
+.name-title {
+  padding-top: 4%;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #6991B7;
+  padding-bottom: 0rem;
+  margin-bottom: 0rem; }
+
+.date-title {
+  font-size: 1.30rem;
+  color: #b4b1b1;
+  padding-bottom: .5rem; }
+
+.resource-title {
+  padding-top: 2rem;
+  font-size: 2rem;
+  color: #6991B7;
+  padding-bottom: 0rem;
+  margin-bottom: 0rem; }
+
+.dark-souls {
+  font-size: 1.20rem; }
+
+.logout_button {
+  font-size: 2rem; }
+
+.location_box_title {
+  bottom: 2.8rem;
+  left: 6.7rem;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: bold; }
+
+#searchform {
+  position: relative; }
+  #searchform input[type=submit] {
+    background: url("./images/search.png");
+    background-repeat: no-repeat;
+    border: 0;
+    position: absolute;
+    right: 0;
+    top: 3px; }
+  #searchform button,
+  #searchform input[type="button"],
+  #searchform input[type="text"],
+  #searchform input[type="reset"] {
+    box-shadow: none;
+    outline: none;
+    border: none;
+    width: 100%;
+    border-bottom: 1px solid;
+    border-radius: 0px; }
+    #searchform button:active, #searchform button:focus,
+    #searchform input[type="button"]:active,
+    #searchform input[type="button"]:focus,
+    #searchform input[type="text"]:active,
+    #searchform input[type="text"]:focus,
+    #searchform input[type="reset"]:active,
+    #searchform input[type="reset"]:focus {
+      outline: none; }
+    #searchform button input[type="text"],
+    #searchform input[type="button"] input[type="text"],
+    #searchform input[type="text"] input[type="text"],
+    #searchform input[type="reset"] input[type="text"] {
+      display: none;
+      padding-top: 10rem; }
+
+.page-id-7 .hero, .page-id-118 .hero {
   background-image: url("./images/spash_banner.png");
   width: auto;
   height: 400px;
@@ -1587,14 +1799,15 @@ object {
   -ms-flex-pack: center;
       justify-content: center; }
 
-.page-id-7 .teachers img {
-  border-radius: 5px; }
+.page-id-7 .teachers img, .page-id-118 .teachers img {
+  border-radius: 5px;
+  padding-left: 2rem; }
 
-.page-id-7 button {
+.page-id-7 button, .page-id-118 button {
   background: none;
   border-color: #FFF; }
 
-.page-id-7 .blue-button {
+.page-id-7 .blue-button, .page-id-118 .blue-button {
   color: #fff;
   background: #6992B8;
   width: 14rem;
@@ -1604,7 +1817,7 @@ object {
   font-size: 1.5rem;
   border-radius: 5px; }
 
-.page-id-7 .class-button {
+.page-id-7 .class-button, .page-id-118 .class-button {
   color: #fff;
   background: #E98E73;
   width: 10rem;
@@ -1614,18 +1827,18 @@ object {
   font-size: 1rem;
   border-radius: 4px; }
 
-.page-id-7 .title-founder {
+.page-id-7 .title-founder, .page-id-118 .title-founder {
   text-align: left;
   font-size: 2.5rem;
   font-weight: bold;
   color: #6991B7;
   line-height: 3rem; }
 
-.page-id-7 .padding-founder {
+.page-id-7 .padding-founder, .page-id-118 .padding-founder {
   padding-left: .15rem;
   padding-bottom: 1.5rem; }
 
-.page-id-7 .title-teacher {
+.page-id-7 .title-teacher, .page-id-118 .title-teacher {
   text-align: center;
   padding-top: 4%;
   font-size: 3rem;
@@ -1633,13 +1846,13 @@ object {
   color: #6991B7;
   padding-bottom: 2rem; }
 
-.page-id-7 .padding-right-teacher {
+.page-id-7 .padding-right-teacher, .page-id-118 .padding-right-teacher {
   padding-right: 2.5rem; }
 
-.page-id-7 .padding-right-teacher-profile {
+.page-id-7 .padding-right-teacher-profile, .page-id-118 .padding-right-teacher-profile {
   padding-right: 5rem; }
 
-.page-id-7 .title-teacher-name {
+.page-id-7 .title-teacher-name, .page-id-118 .title-teacher-name {
   text-align: left;
   font-size: 2rem;
   font-weight: bold;
@@ -1647,7 +1860,7 @@ object {
   padding-top: 1rem;
   line-height: 1.25rem; }
 
-.page-id-34 .hero {
+.page-id-34 .hero, .page-id-120 .hero {
   background-image: url("./images/spash_banner.png");
   width: auto;
   height: 400px;
@@ -1660,11 +1873,12 @@ object {
       justify-content: center; }
 
 .page-id-34,
-.page-id-34 button {
+.page-id-34 button, .page-id-120,
+.page-id-120 button {
   background: none;
   border-color: #FFF; }
 
-.page-id-34 .blue-button {
+.page-id-34 .blue-button, .page-id-120 .blue-button {
   color: #fff;
   background: #6992B8;
   width: 14rem;
@@ -1674,7 +1888,7 @@ object {
   font-size: 1.5rem;
   border-radius: 5px; }
 
-.page-id-34 .class-button {
+.page-id-34 .class-button, .page-id-120 .class-button {
   color: #fff;
   background: #E98E73;
   width: 10rem;
@@ -1684,7 +1898,7 @@ object {
   font-size: 1rem;
   border-radius: 4px; }
 
-.page-id-34 .title-founder {
+.page-id-34 .title-founder, .page-id-120 .title-founder {
   text-align: left;
   font-size: 2.5rem;
   font-weight: bold;
@@ -1748,6 +1962,39 @@ object {
 
 .pad-left {
   padding-left: 4rem; }
+
+@media only screen and (min-width: 1px) and (max-width: 700px) {
+  .row {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem; }
+  .page-id-127 .row,
+  .page-id-7 .row,
+  .page-id-34 .row {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem; }
+  .name-title-mobile {
+    padding-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #6991B7;
+    padding-bottom: 0rem;
+    margin-bottom: 0rem; }
+  .logout_button-mobile {
+    font-size: 1.35rem; }
+  .padding-2-mobile {
+    padding-top: 5.2rem;
+    padding-bottom: 2rem; }
+  .resources-border-mobile {
+    border-style: solid;
+    border-width: 1px;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem; } }
+
+.resources-border {
+  border-style: solid;
+  border-width: 1px; }
 
 /* Styling for Programs page done by Ala */
 .page-id-4 .site-content .program-header-image, .page-id-8 .site-content .program-header-image {

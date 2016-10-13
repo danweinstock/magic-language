@@ -22,7 +22,7 @@ get_header(); ?>
 			<?php
 
 				get_template_part( 'template-parts/content', 'location-neighbourhood' );
-
+				?><a id="map-info"></a><?php
 				get_template_part( 'template-parts/content', 'location-neighbourhood-info' );
 
 				// If comments are open or we have at least one comment, load up the comment template.

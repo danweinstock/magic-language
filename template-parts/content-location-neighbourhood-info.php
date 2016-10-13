@@ -1,7 +1,9 @@
+
+
 <?php $neighbourhood = new WP_Query( array( 'post_type' => 'Neighbourhood','posts_per_page' => 20 ) ); ?>
 <?php while ( $neighbourhood->have_posts()){ ?>
     <?php $neighbourhood->the_post(); ?>
-    <div class="hidden address-part padding-top-med" id="map-info-<?php the_ID()?>">
+    <div class="hidden address-part " id="map-info-<?php the_ID()?>">
         <div class="row">
             <div class="title-location-info">Location Information</div>
             <div class="large-6 columns">

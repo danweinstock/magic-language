@@ -59,6 +59,47 @@ function magic_language_setup() {
 		'caption',
 	) );
 
+	/*  Brandon - adding roles for login section  */
+
+	$result = add_role(
+	    'Pending',
+	    __( 'Pending' ),
+	    array(
+	        'read'         => true,  // true allows this capability
+	        'edit_posts'   => false,
+	        'delete_posts' => false, // Use false to explicitly deny
+	    )
+	);
+
+	$result = add_role(
+	    'Teacher',
+	    __( 'Teacher' ),
+	    array(
+	        'read'         => true,  // true allows this capability
+	        'edit_posts'   => false,
+	        'delete_posts' => false, // Use false to explicitly deny
+	    )
+
+	);
+
+	$result = add_role(
+	    'Parent',
+	    __( 'Parent' ),
+	    array(
+	        'read'         => true,  // true allows this capability
+	        'edit_posts'   => false,
+	        'delete_posts' => false, // Use false to explicitly deny
+	    )
+	);
+
+	/*  Brandon - this function will remove admin bar (not working) */
+
+	function remove_admin_bar() {
+		if (!current_user_can('administrator') && !is_admin()) {
+			show_admin_bar(false);
+		}
+	}
+
 	// Set up the WordPress core custom background feature.
 	add_theme_support( 'custom-background', apply_filters( 'magic_language_custom_background_args', array(
 		'default-color' => 'ffffff',
@@ -118,7 +159,7 @@ function magic_language_scripts() {
 wp_enqueue_style( 'magic_language-style', get_stylesheet_uri() );
 
 
-	
+
 	wp_enqueue_script( 'magic_language-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 
 	wp_enqueue_script( 'magic_language-plugin', get_template_directory_uri() . '/js/plugin.js', array('jquery'), '20151215', true );
@@ -176,3 +217,13 @@ function get_custom_title($ID){
 		echo CFS()->get('custom_banner_title');
 	}
 }
+
+function template_chooser($template)   {
+ 	global $wp_query;
+ 	$post_type = get_query_var('post_type');
+ 	if( $wp_query->is_search && $post_type == 'resources' ) {
+   		return locate_template('resources-search.php');
+ 	}
+ 	return $template;
+}
+add_filter('template_include', 'template_chooser');

@@ -16,7 +16,6 @@
 
    jQuery('.location-part').on('click', function(){
        var locationId=jQuery(this).data("map");
-           console.log(locationId);
        jQuery(".address-part").hide();
        jQuery("#map-info-"+ locationId).show();
    });
