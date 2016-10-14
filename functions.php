@@ -94,11 +94,8 @@ function magic_language_setup() {
 
 	/*  Brandon - this function will remove admin bar (not working) */
 
-	function remove_admin_bar() {
-		if (!current_user_can('administrator') && !is_admin()) {
-			show_admin_bar(false);
-		}
-	}
+	add_filter('show_admin_bar', '__return_false');
+
 
 	// Set up the WordPress core custom background feature.
 	add_theme_support( 'custom-background', apply_filters( 'magic_language_custom_background_args', array(

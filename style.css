@@ -587,7 +587,8 @@ body {
 .main-navigation {
   margin-right: 4%; }
   .main-navigation .menu .menu-item a {
-    color: #5F87A9; }
+    color: #5F87A9;
+    padding-top: 3rem; }
   .main-navigation .menu .menu-item-55, .main-navigation .menu .menu-item-148 {
     background: #DA9798;
     border-radius: 5%; }
@@ -768,6 +769,13 @@ input[type="text"]::-webkit-input-placeholder {
 /*--------------------------------------------------------------
 # Our Story Page Styling
 --------------------------------------------------------------*/
+.home .company-logo,
+.site-branding .company-logo {
+  width: 20%;
+  padding-top: 1rem;
+  padding-left: 2rem;
+  padding-bottom: 1rem; }
+
 .center {
   text-align: center; }
 
@@ -883,15 +891,10 @@ input[type="text"]::-webkit-input-placeholder {
 
 .page-id-7 .hero, .page-id-118 .hero {
   background-image: url("./images/kid_contour_banner.jpg");
-  width: auto;
-  height: 400px;
-  background-size: cover;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-align: center;
-      align-items: center;
-  -ms-flex-pack: center;
-      justify-content: center; }
+  width: 100%;
+  height: 501px;
+  background-size: 100%;
+  background-repeat: no-repeat; }
 
 .page-id-7 .teachers img, .page-id-118 .teachers img {
   border-radius: 5px;
@@ -956,15 +959,10 @@ input[type="text"]::-webkit-input-placeholder {
 
 .page-id-34 .hero, .page-id-120 .hero {
   background-image: url("./images/kid_contour_banner.jpg");
-  width: auto;
-  height: 400px;
-  background-size: cover;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-align: center;
-      align-items: center;
-  -ms-flex-pack: center;
-      justify-content: center; }
+  width: 100%;
+  height: 21rem;
+  background-size: 100%;
+  background-repeat: no-repeat; }
 
 .page-id-34,
 .page-id-34 button, .page-id-120,
@@ -1084,7 +1082,43 @@ input[type="text"]::-webkit-input-placeholder {
     padding-top: 1rem;
     padding-bottom: 2rem;
     padding-left: 2rem;
-    padding-right: 2rem; } }
+    padding-right: 2rem; }
+  .home .company-logo,
+  .site-branding .company-logo {
+    width: 35%;
+    padding-left: 1rem; }
+  .orange-button {
+    color: #fff;
+    background: #DA9798;
+    border: none;
+    border-radius: 5%;
+    margin-top: 2.5rem;
+    margin-bottom: 2rem;
+    width: 6rem;
+    height: 2.5rem; }
+  .menu-menu-1-container {
+    width: 100%;
+    clear: both;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    margin: 0;
+    padding-top: 5rem;
+    padding-bottom: 2rem; }
+    .menu-menu-1-container .orange-button {
+      color: #fff;
+      background: #DA9798;
+      border: none;
+      border-radius: 5%;
+      margin-top: 2.5rem;
+      margin-bottom: 2rem;
+      width: 6rem;
+      height: 2.5rem; }
+    .menu-menu-1-container a {
+      text-align: center; }
+    .menu-menu-1-container li {
+      width: 90%; }
+    .menu-menu-1-container .footer-address {
+      padding-top: 12rem; } }
 
 /*--------------------------------------------------------------
 # Typography
@@ -1696,6 +1730,13 @@ object {
   min-height: 150px;
   background: url(AjaxLoader.gif) no-repeat center center; }
 
+.home .company-logo,
+.site-branding .company-logo {
+  width: 20%;
+  padding-top: 1rem;
+  padding-left: 2rem;
+  padding-bottom: 1rem; }
+
 .center {
   text-align: center; }
 
@@ -1811,15 +1852,10 @@ object {
 
 .page-id-7 .hero, .page-id-118 .hero {
   background-image: url("./images/kid_contour_banner.jpg");
-  width: auto;
-  height: 400px;
-  background-size: cover;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-align: center;
-      align-items: center;
-  -ms-flex-pack: center;
-      justify-content: center; }
+  width: 100%;
+  height: 501px;
+  background-size: 100%;
+  background-repeat: no-repeat; }
 
 .page-id-7 .teachers img, .page-id-118 .teachers img {
   border-radius: 5px;
@@ -1884,15 +1920,10 @@ object {
 
 .page-id-34 .hero, .page-id-120 .hero {
   background-image: url("./images/kid_contour_banner.jpg");
-  width: auto;
-  height: 400px;
-  background-size: cover;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-align: center;
-      align-items: center;
-  -ms-flex-pack: center;
-      justify-content: center; }
+  width: 100%;
+  height: 21rem;
+  background-size: 100%;
+  background-repeat: no-repeat; }
 
 .page-id-34,
 .page-id-34 button, .page-id-120,
@@ -2012,7 +2043,43 @@ object {
     padding-top: 1rem;
     padding-bottom: 2rem;
     padding-left: 2rem;
-    padding-right: 2rem; } }
+    padding-right: 2rem; }
+  .home .company-logo,
+  .site-branding .company-logo {
+    width: 35%;
+    padding-left: 1rem; }
+  .orange-button {
+    color: #fff;
+    background: #DA9798;
+    border: none;
+    border-radius: 5%;
+    margin-top: 2.5rem;
+    margin-bottom: 2rem;
+    width: 6rem;
+    height: 2.5rem; }
+  .menu-menu-1-container {
+    width: 100%;
+    clear: both;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    margin: 0;
+    padding-top: 5rem;
+    padding-bottom: 2rem; }
+    .menu-menu-1-container .orange-button {
+      color: #fff;
+      background: #DA9798;
+      border: none;
+      border-radius: 5%;
+      margin-top: 2.5rem;
+      margin-bottom: 2rem;
+      width: 6rem;
+      height: 2.5rem; }
+    .menu-menu-1-container a {
+      text-align: center; }
+    .menu-menu-1-container li {
+      width: 90%; }
+    .menu-menu-1-container .footer-address {
+      padding-top: 12rem; } }
 
 .resources-border {
   border-style: solid;
