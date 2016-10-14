@@ -249,6 +249,11 @@ input[type="text"]::-webkit-input-placeholder{
 		z-index: 1;
 		top: 0;
 	}
+#chosen-language, #chosen-location{
+	.overlay-color{
+			display: none; 
+		}
+	}
 .sidebar2-title{
 	font-size: 1.5rem;
 	font-weight: bold;
@@ -264,3 +269,33 @@ input[type="text"]::-webkit-input-placeholder{
 		color: $color__background-body;
 	}
 }
+
+.blog{
+	article{
+		min-height: 700px;
+	}
+}
+.language-button,.button-location{
+	display: inline-block;
+}
+
+.active-option, .active-group-session{
+	background: #00008B;
+}
+.active-language{
+	display: none;
+}
+.home-student{
+	border: 3px solid black;
+	margin-bottom: 1rem;
+	padding: 1rem;
+}
+.registration-buttons{
+	input[type=submit]{
+			background: $color__blue-button;
+			color: $color__background-body;
+	 }
+}
+
+
+

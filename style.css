@@ -520,6 +520,7 @@ body {
 
 .align-center {
   -ms-flex-align: center;
+      -ms-grid-row-align: center;
       align-items: center; }
 
 .flex-grow-double {
@@ -754,6 +755,9 @@ input[type="text"]::-webkit-input-placeholder {
   z-index: 1;
   top: 0; }
 
+#chosen-language .overlay-color, #chosen-location .overlay-color {
+  display: none; }
+
 .sidebar2-title {
   font-size: 1.5rem;
   font-weight: bold; }
@@ -762,6 +766,27 @@ input[type="text"]::-webkit-input-placeholder {
   padding-bottom: 8%; }
 
 .page-id-64 input[type="button"], .page-id-13 input[type="button"] {
+  background: #5F87A9;
+  color: #fff; }
+
+.blog article {
+  min-height: 700px; }
+
+.language-button, .button-location {
+  display: inline-block; }
+
+.active-option, .active-group-session {
+  background: #00008B; }
+
+.active-language {
+  display: none; }
+
+.home-student {
+  border: 3px solid black;
+  margin-bottom: 1rem;
+  padding: 1rem; }
+
+.registration-buttons input[type=submit] {
   background: #5F87A9;
   color: #fff; }
 
