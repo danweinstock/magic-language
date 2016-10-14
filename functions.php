@@ -165,7 +165,7 @@ require get_template_directory() . '/inc/customizer.php';
  */
 require get_template_directory() . '/inc/jetpack.php';
 
-// require get_template_directory() . '/inc/form-parts/form-register.php';
+require get_template_directory() . '/inc/form-parts/form-register.php';
 
 
 add_image_size('front-blog', 567, 320, true);

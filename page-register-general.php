@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Register-general
+ * Template Name: Register
  *
  * @package WordPress
  * @subpackage Twenty_Fourteen
@@ -8,9 +8,14 @@
  */
 
 get_header(); ?>
-	<button class="location-type-button	blue-button" type="button"><a href="http://localhost:8888/hope/register-home/">A.In Home</a></button>
-	<button class="location-type-button blue-button" type="button"><a href="http://localhost:8888/hope/register-group/">B. Group Location</a></button>		
+<?php 
+	if (empty($_POST["step"])){
+		$step=1;
+	}
+	else{
+		$step = $_POST["step"];
+	}
+register_form($step) ?>
 
-<?php
-//get_sidebar();
-get_footer();
+
+<?php get_footer(); ?>

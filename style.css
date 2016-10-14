@@ -712,7 +712,8 @@ input[type="text"]::-webkit-input-placeholder {
   .register-body li {
     margin-top: 1rem; }
 
-.location-button {
+.button-location, .language-button {
+  margin-right: 10%;
   margin-bottom: 2rem; }
 
 .tos {
@@ -743,10 +744,12 @@ input[type="text"]::-webkit-input-placeholder {
 .overlay-color {
   position: absolute;
   height: 100%;
-  width: 15rem;
+  width: 100%;
   background-color: rgba(0, 0, 0, 0.5);
-  z-index: 1;
-  top: 0; }
+  z-index: 1; }
+
+#chosen-language .overlay-color, #chosen-location .overlay-color {
+  display: none; }
 
 .sidebar2-title {
   font-size: 1.5rem;
@@ -761,6 +764,24 @@ input[type="text"]::-webkit-input-placeholder {
 
 .blog article {
   min-height: 700px; }
+
+.language-button, .button-location {
+  display: inline-block; }
+
+.active-option, .active-group-session {
+  background: #00008B; }
+
+.active-language {
+  display: none; }
+
+.home-student {
+  border: 3px solid black;
+  margin-bottom: 1rem;
+  padding: 1rem; }
+
+.registration-buttons input[type=submit] {
+  background: #5F87A9;
+  color: #fff; }
 
 /*--------------------------------------------------------------
 # Our Story Page Styling
@@ -1058,7 +1079,6 @@ table {
 /*--------------------------------------------------------------
 # Forms
 --------------------------------------------------------------*/
-button,
 input[type="button"],
 input[type="reset"],
 input[type="submit"] {
@@ -1071,9 +1091,7 @@ input[type="submit"] {
   font-size: 1rem;
   line-height: 1;
   padding: .6em 1em .4em; }
-  button:active, button:focus,
-  input[type="button"]:active,
-  input[type="button"]:focus,
+  input[type="button"]:active, input[type="button"]:focus,
   input[type="reset"]:active,
   input[type="reset"]:focus,
   input[type="submit"]:active,
