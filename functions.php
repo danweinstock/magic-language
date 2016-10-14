@@ -59,6 +59,44 @@ function magic_language_setup() {
 		'caption',
 	) );
 
+	/*  Brandon - adding roles for login section  */
+
+	$result = add_role(
+	    'Pending',
+	    __( 'Pending' ),
+	    array(
+	        'read'         => true,  // true allows this capability
+	        'edit_posts'   => false,
+	        'delete_posts' => false, // Use false to explicitly deny
+	    )
+	);
+
+	$result = add_role(
+	    'Teacher',
+	    __( 'Teacher' ),
+	    array(
+	        'read'         => true,  // true allows this capability
+	        'edit_posts'   => false,
+	        'delete_posts' => false, // Use false to explicitly deny
+	    )
+
+	);
+
+	$result = add_role(
+	    'Parent',
+	    __( 'Parent' ),
+	    array(
+	        'read'         => true,  // true allows this capability
+	        'edit_posts'   => false,
+	        'delete_posts' => false, // Use false to explicitly deny
+	    )
+	);
+
+	/*  Brandon - this function will remove admin bar (not working) */
+
+	add_filter('show_admin_bar', '__return_false');
+
+
 	// Set up the WordPress core custom background feature.
 	add_theme_support( 'custom-background', apply_filters( 'magic_language_custom_background_args', array(
 		'default-color' => 'ffffff',
@@ -106,6 +144,15 @@ function magic_language_widgets_init() {
 		'before_title'  => '<div class="blue-text sidebar2-title">',
 		'after_title'   => '</div>',
 	) );
+	register_sidebar( array(
+		'name'          => esc_html__( 'Sidebar-3', 'magic_language' ),
+		'id'            => 'sidebar-3',
+		'description'   => esc_html__( 'Add widgets here.', 'magic_language' ),
+		'before_widget' => '<section id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</section>',
+		'before_title'  => '<div class="blue-text sidebar3-title">',
+		'after_title'   => '</div>',
+	) );
 }
 add_action( 'widgets_init', 'magic_language_widgets_init' );
 
@@ -118,7 +165,7 @@ function magic_language_scripts() {
 wp_enqueue_style( 'magic_language-style', get_stylesheet_uri() );
 
 
-	
+
 	wp_enqueue_script( 'magic_language-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 
 	wp_enqueue_script( 'magic_language-plugin', get_template_directory_uri() . '/js/plugin.js', array('jquery'), '20151215', true );
@@ -135,11 +182,11 @@ wp_enqueue_style( 'magic_language-style', get_stylesheet_uri() );
 }
 add_action( 'wp_enqueue_scripts', 'magic_language_scripts' );
 
-add_filter(‘excerpt_length’, ‘my_excerpt_length’);
-function my_excerpt_length($length) {
-return 50; // Or whatever you want the length to be.
-}
 
+function my_excerpt_length($length) {
+return 20; // Or whatever you want the length to be.
+}
+add_filter("excerpt_length","my_excerpt_length");
 /**
  * Implement the Custom Header feature.
  */
@@ -183,3 +230,13 @@ function get_custom_title($ID){
 		echo CFS()->get('custom_banner_title');
 	}
 }
+
+function template_chooser($template)   {
+ 	global $wp_query;
+ 	$post_type = get_query_var('post_type');
+ 	if( $wp_query->is_search && $post_type == 'resources' ) {
+   		return locate_template('resources-search.php');
+ 	}
+ 	return $template;
+}
+add_filter('template_include', 'template_chooser');

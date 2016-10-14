@@ -41,6 +41,7 @@
 		.menu-item{
 			a{
 				color: $color__blue-button;
+				padding-top: 3rem;
 			}
 		}
 
@@ -87,7 +88,7 @@
 .front-blog{
 	img{
 	border-radius: 5%;
-		
+
 	}
 }
 .home-blog-title{
@@ -153,7 +154,7 @@
 }
 input[type="text"]::-webkit-input-placeholder{
 		color: #000;
-	} 
+	}
 .footer-newsletter{
 	label{
 		color: $color__background-body;
@@ -165,7 +166,7 @@ input[type="text"]::-webkit-input-placeholder{
 	color: $color__background-body;
 	top: 16rem;
 }
-/*end of footer formatting*/ 
+/*end of footer formatting*/
 
 .page-id-13, .page-id-64, .blog{
 	.hero{
@@ -254,6 +255,11 @@ input[type="text"]::-webkit-input-placeholder{
 			display: none; 
 		}
 	}
+#chosen-language, #chosen-location{
+	.overlay-color{
+			display: none; 
+		}
+	}
 .sidebar2-title{
 	font-size: 1.5rem;
 	font-weight: bold;
@@ -269,6 +275,7 @@ input[type="text"]::-webkit-input-placeholder{
 		color: $color__background-body;
 	}
 }
+
 .blog{
 	article{
 		min-height: 700px;
@@ -295,3 +302,9 @@ input[type="text"]::-webkit-input-placeholder{
 			color: $color__background-body;
 	 }
 }
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> master

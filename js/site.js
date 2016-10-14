@@ -41,4 +41,16 @@ jQuery( document ).ready(function($) {
 		numChild++;
 		$(".child-clone ol").clone().addClass('child-'+numChild).removeClass('none').appendTo(".children-added");
 	});
+  jQuery(".location-button").on('click', function(event) {
+      event.preventDefault();
+      $('html, body').animate({
+        scrollTop: $("#map-info").offset().top
+      }, 800);
+
+  });
 });
+
+
+
+
+

@@ -22,7 +22,6 @@ get_header();
 	<button type="button"> Subscribe </button>
 </form>
 
-
 <?php
 get_footer();
 
