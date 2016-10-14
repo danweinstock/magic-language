@@ -18,7 +18,7 @@
 		endif;
 		if ( 'post' === get_post_type() ) : ?>
 			<div class="entry-meta">
-				<?php magic_language_posted_on(); ?> <?php echo "<br>"."Posted by ".get_the_author(); ?>
+				<?php magic_language_posted_on(); ?> <?php echo "<br>"."Posted by ".get_the_author() ?>
 			</div><!-- .entry-meta -->
 			<?php
 		endif; ?>
@@ -40,9 +40,7 @@
 				'after'  => '</div>',
 			) );
 		?>
-	</div><!-- .entry-content -->
-
-	<footer class="entry-footer">
-		<?php magic_language_entry_footer(); ?>
-	</footer><!-- .entry-footer -->
+	</div>
+	<button class="blue-button"> <a class="blue-button" href="<?php echo esc_url(get_permalink())?>">Read More</a></button>
+	<!-- .entry-content -->
 </article><!-- #post-## -->

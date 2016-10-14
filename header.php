@@ -65,7 +65,7 @@ echo '<script src="'.get_bloginfo("stylesheet_directory").'/build/js/owl.carouse
 			<?php } else if(is_archive() && !is_category()) { ?>
 				<div class="title-styling">Search Results</div>
 				<?php
-			}else if(is_category() || is_search()) { ?>
+			}else if(is_category() || is_search() || is_single()) { ?>
 				<div class="title-styling">Blog</div>
 				<?php
 			}

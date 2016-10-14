@@ -16,6 +16,15 @@ get_header(); ?>
 
 	<div id="primary" class="content-area large-7 columns">
 		<main id="main" class="site-main" role="main">
+			<div class="large-4 small-12 show-for-small-only column home-sidebar-padding ">
+				<div class="search-spacing">
+					<form role="search" class="resource-form" action="<?php echo site_url('/'); ?>" method="get" id="searchform">
+						<input type="text" name="s" placeholder="Search "/>
+						<input type="hidden" name="post_type" value="resources" /> <!-- // hidden 'products' value -->
+						<input type="submit" alt="Search" value="" />
+					</form>
+				</div>
+			</div>
 		<?php
 		if ( have_posts() ) :
 
@@ -51,7 +60,7 @@ get_header(); ?>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
-	<div class="large-4 column home-sidebar-padding ">
+	<div class="large-4 small-12 hide-for-small-only column home-sidebar-padding ">
 		<div class="search-spacing">
 			<form role="search" class="resource-form" action="<?php echo site_url('/'); ?>" method="get" id="searchform">
 				<input type="text" name="s" placeholder="Search "/>
