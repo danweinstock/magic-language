@@ -2182,7 +2182,8 @@ object {
   padding-top: 3rem; }
 
 .search-spacing {
-  padding-bottom: 3rem; }
+  padding-bottom: 2rem;
+  padding-top: 1rem; }
 
 .search-exerpt-summary {
   padding-top: 4.7rem; }

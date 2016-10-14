@@ -7,7 +7,6 @@
  * @package magic_language
  */
 ?>
-<h1> I am content-single-php</h1>
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header padding-left-2">
 
@@ -51,8 +50,4 @@
 			) );
 		?>
 	</div><!-- .entry-content -->
-
-	<footer class="entry-footer padding-left-2">
-		<?php magic_language_entry_footer(); ?>
-	</footer><!-- .entry-footer -->
 </article><!-- #post-## -->
