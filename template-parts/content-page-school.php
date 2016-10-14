@@ -8,20 +8,14 @@
 		<p class="text-left">Please contact us and benefit from a professional teaching service with a proven methodology
 			directly at your school</p><br>
 
+		<?php
+		while ( have_posts() ) : the_post();
+		 the_content();
+		endwhile;
+		?>
+
 
 		<div class="row ">
-			<div class="large-6 column ">
-				<h5 class="blue-text"> <strong>Get in Touch with Us</strong></h5>
-				<form action="#">
-					First and Last Name: <input type="text" name="flname">
-					Job Title:<input type="text" name="jobtitle">
-					Name of your Education Center:<input type="text" name="education">
-					Email:<input type="text" name="email-education">
-					Phone Number:<input type="text" name="number-education">
-					Leave us a Message:<input type="text" class="message-box" name="message-education">
-					<button type="button" class="blue-button">Submit</button>
-				</form>
-			</div>
 			<div class="panel">
 				<div class="large-6 hide-for-small-only column bunny-school">
 					<?php

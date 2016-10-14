@@ -2137,7 +2137,3 @@ object {
 
 div[id^="theme-my-login"] {
   margin: auto; }
-
-button[class|="blue-button"] a {
-  text-decoration: none;
-  color: white; }
