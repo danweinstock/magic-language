@@ -520,6 +520,7 @@ body {
 
 .align-center {
   -ms-flex-align: center;
+      -ms-grid-row-align: center;
       align-items: center; }
 
 .flex-grow-double {
@@ -590,11 +591,11 @@ body {
   margin-right: 4%; }
   .main-navigation .menu .menu-item a {
     color: #5F87A9;
-    padding-top: 3rem; }
-  .main-navigation .menu .menu-item-55, .main-navigation .menu .menu-item-148 {
+    margin-top: 3rem; }
+  .main-navigation .menu .menu-item-55, .main-navigation .menu .menu-item-148, .main-navigation .menu .menu-item-237 {
     background: #DA9798;
     border-radius: 5%; }
-    .main-navigation .menu .menu-item-55 a, .main-navigation .menu .menu-item-148 a {
+    .main-navigation .menu .menu-item-55 a, .main-navigation .menu .menu-item-148 a, .main-navigation .menu .menu-item-237 a {
       color: #fff; }
 
 .home-icons {
