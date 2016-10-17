@@ -2,6 +2,9 @@
 .blue-text{
 	color: $color__blue-button;
 }
+.bold-text{
+	font-family: Raleway-Bold;
+}
 .orange-button{
 	color: $color__background-body;
 	background: $color__orange-button;
@@ -161,6 +164,9 @@ input[type="text"]::-webkit-input-placeholder{
 		font-size: 1rem;
 	}
 }
+a.footer-link{
+	color:$color__background-body;
+}
 .copyright{
 	font-size: 0.6rem;
 	color: $color__background-body;
@@ -301,10 +307,8 @@ input[type="text"]::-webkit-input-placeholder{
 			background: $color__blue-button;
 			color: $color__background-body;
 	 }
+}	
+.program-buttons{
+	height: 3rem;
+	width: 11rem;
 }
-<<<<<<< HEAD
-=======
-
-
-
->>>>>>> master

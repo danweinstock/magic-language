@@ -555,6 +555,9 @@ body {
 .blue-text {
   color: #5F87A9; }
 
+.bold-text {
+  font-family: Raleway-Bold; }
+
 .orange-button {
   color: #fff;
   background: #DA9798;
@@ -587,7 +590,8 @@ body {
 .main-navigation {
   margin-right: 4%; }
   .main-navigation .menu .menu-item a {
-    color: #5F87A9; }
+    color: #5F87A9;
+    padding-top: 3rem; }
   .main-navigation .menu .menu-item-55, .main-navigation .menu .menu-item-148 {
     background: #DA9798;
     border-radius: 5%; }
@@ -681,6 +685,9 @@ input[type="text"]::-webkit-input-placeholder {
   color: #fff;
   font-size: 1rem; }
 
+a.footer-link {
+  color: #fff; }
+
 .copyright {
   font-size: 0.6rem;
   color: #fff;
@@ -757,6 +764,9 @@ input[type="text"]::-webkit-input-placeholder {
 #chosen-language .overlay-color, #chosen-location .overlay-color {
   display: none; }
 
+#chosen-language .overlay-color, #chosen-location .overlay-color {
+  display: none; }
+
 .sidebar2-title {
   font-size: 1.5rem;
   font-weight: bold; }
@@ -788,6 +798,10 @@ input[type="text"]::-webkit-input-placeholder {
 .registration-buttons input[type=submit] {
   background: #5F87A9;
   color: #fff; }
+
+.program-buttons {
+  height: 3rem;
+  width: 11rem; }
 
 /*--------------------------------------------------------------
 # Our Story Page Styling
@@ -2100,10 +2114,6 @@ object {
       width: 90%; }
     .menu-menu-1-container .footer-address {
       padding-top: 12rem; } }
-
-.resources-border {
-  border-style: solid;
-  border-width: 1px; }
 
 /* Styling for Programs page done by Ala */
 .page-id-4 .site-content .program-header-image, .page-id-8 .site-content .program-header-image {

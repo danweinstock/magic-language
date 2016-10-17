@@ -1,4 +1,4 @@
-<div class="program-title text-center blue-text"><h3>Our Methodology</h3></div>
+<div class="program-title text-center blue-text bold-text"><h3>Our Methodology</h3></div>
 <div class="program-subtitle text-center blue-text">One class a week + 15 minutes a day at home</div>
 <div class="program-info-icons row padding-lrg">
 	<div class="program-puzzle large-3 column ">
@@ -23,7 +23,7 @@
 </div>
 <div class="row ">
 	<div class="programs-in-home padding-programs large-6 columns">
-		<h3 class="blue-text">Learn in your own home</h3>
+		<h3 class="blue-text bold-text">Learn in your own home</h3>
 		<p>Learn with Magic Languages in the comfort of your own home. For private or small group instruction we offer one lesson per week (or more if you wish).</p>
 		<ul>
 			<li>First child $180, discounts for additional children.</li>
@@ -33,10 +33,10 @@
 			<li>Access to digital content for home practice</li>
 			<li>A great option for home-schooled children</li>
 		</ul>
-		<button class="orange-button">Register</button>
+		<button class="orange-button program-buttons">Register</button>
 	</div>
 	<div class="programs-in-school padding-programs large-6 columns">
-		<h3 class="blue-text"> Join a Group Class</h3>
+		<h3 class="blue-text bold-text"> Join a Group Class</h3>
 		<p>Learn on location by joining one of our 10 week group programs. Offered in various neighbourhoods across Toronto. Classes vary based on age and language. </p>
 		<ul>
 			<li>First child $250, discounts for additional children</li>
@@ -46,15 +46,15 @@
 			<li>Access to digital content for home practice</li>
 			<li>Specific activities for each group</li>
 		</ul>
-		<button class="orange-button">Register</button>
-		<button class="blue-button">Locations &amp; Schedule</button>
+		<button class="orange-button program-buttons">Register</button>
+		<button class="blue-button program-buttons">Locations &amp; Schedule</button>
 	</div>
 </div>
 <div class="row">
 	<div class="programs-add-school large-6 column">
-		<h3 class="blue-text">In-School Programs</h3>
+		<h3 class="blue-text bold-text">In-School Programs</h3>
 		<p>If you are a school, kindergarten, daycare or any other center for child education, Magic Languages can help your students learn French, Spanish and Mandarin. Our teachers are available for before-after school programs and for lessons integrated in your regular curriculum</p>
-		<button class="blue-button">Contact Us</button>
+		<button class="blue-button program-buttons">Contact Us</button>
 	</div>
 	<div class="large-6 column ">
 		<?php

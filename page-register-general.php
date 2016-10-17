@@ -15,6 +15,7 @@ get_header(); ?>
 	else{
 		$step = $_POST["step"];
 	}
+	include "inc/form-parts/form-register.php";
 register_form($step) ?>
 
 
