@@ -18,7 +18,7 @@
 		?>
 	</div><!-- .entry-content -->
 	<div class="home-read-more blue-text">
-		<a href="<?php the_permalink(); ?>">Read More</a><i class="fa fa-caret-right" aria-hidden="true"></i>	
+		<a href="<?php the_permalink(); ?>">Read More </a><i class="fa fa-caret-right" aria-hidden="true"></i>	
 	</div>
 	
 </article><!-- #post-## -->

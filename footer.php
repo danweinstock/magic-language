@@ -48,16 +48,16 @@
 				<div class="left-middle large-6  small-6 columns">
 
 					<ul>
-						<li><a href="#">Our Story</a></li>
-						<li><a href="#">Programs</a></li>
-						<li><a href="#">Schedule</a></li>
-						<li><a href="#">Locations</a></li>
-						<li><a class="nav-register" href="#">Register</a></li>
+						<li><a href="/about">Our Story</a></li>
+						<li><a href="/programs">Programs</a></li>
+						<li><a href="/schedule">Schedule</a></li>
+						<li><a href="/locations">Locations</a></li>
+						<li><a class="nav-register" href="/register-general">Register</a></li>
 					</ul>
 				</div>
 				<div class="right-middle large-6 small-6 columns">
 					<ul>
-						<li><a href="#">Blog</a></li>
+						<li><a href="/blog">Blog</a></li>
 						<li><a href="#">School Programs</a></li>
 						<li><a href="#">Careers</a></li>
 						<li><a href="#">FAQ</a></li>
@@ -70,9 +70,15 @@
 			<div class="large-4 small-12 columns">
 				<div class="social-buttons flex flex-end">
 
-					<i class="fa fa-facebook" aria-hidden="true"></i>
-					<i class="fa fa-twitter" aria-hidden="true"></i>
-					<i class="fa fa-instagram" aria-hidden="true"></i>
+					<a href="https://www.facebook.com/Magic-Languages-325747197551091/" target="_blank">
+						<i class="fa fa-facebook" aria-hidden="true"></i>
+					</a>
+					<a href="https://twitter.com/MagicLanguages" target="_blank">
+						<i class="fa fa-twitter" aria-hidden="true"></i>
+					</a>
+					<a href="https://www.instagram.com/magiclanguages/" target="_blank">
+						<i class="fa fa-instagram" aria-hidden="true"></i>
+					</a>
 				</div>
 				<div class="footer-newsletter">
 					<label>Subscribe to the newsletter
