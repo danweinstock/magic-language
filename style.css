@@ -588,10 +588,10 @@ body {
   color: #fff; }
 
 .main-navigation {
-  margin-right: 4%; }
+  margin-top: 3rem;
+  margin-right: 2rem; }
   .main-navigation .menu .menu-item a {
-    color: #5F87A9;
-    margin-top: 3rem; }
+    color: #5F87A9; }
   .main-navigation .menu .menu-item-55, .main-navigation .menu .menu-item-148, .main-navigation .menu .menu-item-237 {
     background: #DA9798;
     border-radius: 5%; }
